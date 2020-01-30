@@ -99,35 +99,6 @@ class Buy extends React.Component {
                     <Route path="/Boxing"  render={() => <Boxing hideAds={this.hideAds} />}/>
                     <Route path="/Cars"  render={() => <Cars hideAds={this.hideAds} />}/>
                     <Route path="/Wrestling" render={() => <Wrestling hideAds={this.hideAds} />}/>
-                    <Route path="/Archery"  render={() => <Archery hideAds={this.hideAds} />}/>
-                    <Route path="/Cheerleading"  render={() => <Cheerleading hideAds={this.hideAds} />}/>
-                    <Route path="/Bike"  render={() => <Bike hideAds={this.hideAds} />}/>
-                    <Route path="/Dance" render={() => <Dance hideAds={this.hideAds} />}/>
-                    <Route path="/Diving" render={() => <Diving hideAds={this.hideAds} />}/>
-                    <Route path="/Skydiving" render={() => <Skydiving hideAds={this.hideAds} />}/>
-                    <Route path="/Airsport"  render={() => <Airsport hideAds={this.hideAds} />}/>
-                    <Route path="/Football" render={() => <Football hideAds={this.hideAds} />}/>
-                    <Route path="/Athletics"  render={() => <Athletics hideAds={this.hideAds} />}/>
-                    <Route path="/Fencing"  render={() => <Fencing hideAds={this.hideAds} />}/>
-                    <Route path="/Golf"  render={() => <Golf hideAds={this.hideAds} />}/>
-                    <Route path="/Gymnastics"  render={() => <Gymnastics hideAds={this.hideAds} />}/>
-                    <Route path="/Handball" render={() => <Handball hideAds={this.hideAds} />}/>
-                    <Route path="/Bandy" render={() => <Bandy hideAds={this.hideAds} />}/>
-                    <Route path="/Figureskating" render={() => <Figureskating hideAds={this.hideAds} />} />
-                    <Route path="/icehockey" render={() => <Icehockey hideAds={this.hideAds} />}/>
-                    <Route path="/Lacrosse"  render={() => <Lacrosse hideAds={this.hideAds} />}/>
-                    <Route path="/Floorball"  render={() => <Floorball hideAds={this.hideAds} />}/>
-                    <Route path="/Martialart"  render={() => <Martialart hideAds={this.hideAds} />}/> 
-                    <Route path="/Canoe" render={() => <Canoe hideAds={this.hideAds} />}/>
-                    <Route path="/Climbing"  render={() => <Climbing hideAds={this.hideAds} />}/>
-                    <Route path="/Motorized" render={() => <Motorized hideAds={this.hideAds} />}/>
-                    <Route path="/Tennis"  render={() => <Tennis hideAds={this.hideAds} />}/>
-                    <Route path="/Riding"  render={() => <Riding hideAds={this.hideAds} />}/>
-                    <Route path="/Rugby" render={() => <Rugby hideAds={this.hideAds} />}/>
-                    <Route path="/Sailing"  render={() => <Sailing hideAds={this.hideAds} />}/>
-                    <Route path="/Ski"  render={() => <Ski hideAds={this.hideAds} />}/>
-                    <Route path="/Waterskiing" render={() => <Waterskiing hideAds={this.hideAds} />}/>
-                    <Route path="/Windsurfing" render={() => <Windsurfing hideAds={this.hideAds} />}/>
                     <Route path="/Other" render={() => <Other hideAds={this.hideAds} />}/>
                 </Switch>
             </div>

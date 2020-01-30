@@ -84,7 +84,7 @@ function componentDidMount() {
 
 function Buy({ routes, ...props}) {
 
-  console.log('öppna menyn');
+  console.log('öppna n');
 
 
   //let openMenu = props.isOpen;
@@ -111,103 +111,19 @@ function Buy({ routes, ...props}) {
     <div className="SubNav" >
       <ul className={props.value ? 'close' : 'open'}>
         <li className="subNav_Box">
-          <Link to="/buy/badminton">Badminton</Link>
+          <Link to="/buy/badminton">Möbler</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/bandy">Bandy</Link>
+          <Link to="/buy/bandy">Leksaker</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/basketball">Basket</Link>
+          <Link to="/buy/basketball">Kläder</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/boxing">Boxning</Link>
+          <Link to="/buy/boxing">Cyklar</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/wrestling">Brottning</Link>
-        </li>
-        <li className="subNav_Box"> 
-          <Link to="/buy/archery">Bågskytte</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/cheerleading">Cheerleading</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/bike">Cykelsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/dance">Dans</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/diving">Dykning</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/skydiving">Fallskärm</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/airsport">Flygsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/football">Fotboll</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/athletics">Friidrott</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/fencing">Fäktning</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/golf">Golf</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/gymnastics">Gymnastik</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/handball">Handboll</Link>
-        </li> 
-        <li className="subNav_Box">
-          <Link to="/buy/icehockey">Ishockey</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/floorball">Innebandy</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/martialart">Kampsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/canoe">Kanot</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/climbing">Klättring</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/figureskating">Konståkning</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/lacrosse">Lacrosse</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/motorized">Motorsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/riding">Ridsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/rugby">Rugby</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/sailing">Segling</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/ski">Skidsport</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/tennis">Tennis</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/waterskiing">Vattenskidor</Link>
-        </li>
-        <li className="subNav_Box">
-          <Link to="/buy/windsurfing">Vindsurfing</Link>
+          <Link to="/buy/wrestling">Säkerhetsanordningar</Link>
         </li>
         <li className="subNav_Box">
           <Link to="/buy/other">Övrigt</Link>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import RegisterCompounds from './RegisterCompounds';
-//import LogCompound from './LogCompound';
+
+//import Log from './Log';
 import './Admin.css';
 
 class Admin extends Component {
@@ -51,7 +51,7 @@ class Admin extends Component {
     render() {
       return (
         <div className="Admin">
-            <RegisterCompounds/>
+         
 
             <h1 className="Admin_title">Meddelanden</h1>
             <div className="AdminBox">

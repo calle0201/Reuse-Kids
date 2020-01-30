@@ -22,10 +22,7 @@ import Testfile from './Testfile';
 import Terms from './Terms';
 import MySide from './MySide';
 import Sellside from './Sellside'; 
-import Compounds from './Compounds'; 
-import CompoundSell from './CompoundSell'; 
-import CompoundAds from './CompoundAds'; 
-import LoginCompounds from './LoginCompounds'; 
+
 import Admin from './Admin';
 import AdminLogin from './AdminLogin';
 import Recipe from './Recipe';

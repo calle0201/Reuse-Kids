@@ -4,15 +4,6 @@ import {BrowserRouter as Router, Link, NavLink, Redirect, Route, Prompt} from 'r
 import './App.css';
 
 import Header from './Header';
-import Login from './Login';
-import SportNav from './SportNav';
-import Sell from './Sell';
-import Home from './Home';
-import Buy from './Buy';
-import About from './About';
-import Contact from './Contact';
-import Footer from './Footer';
-import Search from './Search';
 import Nav from './Nav';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
