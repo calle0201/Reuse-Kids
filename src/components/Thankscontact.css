@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) { 
+    .Thankscontact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .Thankscontact_title {
+        margin-top: 60px;
+    }
+
+    .Thankscontact_text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .Thankscontact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .Thankscontact_title {
+        margin-top: 60px;
+    }
+
+    .Thankscontact_text {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

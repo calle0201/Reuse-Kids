@@ -1,0 +1,178 @@
+
+
+@media screen and (max-width: 600px) {
+    
+    .NewsletterSide-picture {
+        position: relative;
+        width: auto;
+        height: 80px;
+        overflow: hidden;
+    }
+    
+    .NewsletterSide-box {
+        margin: 0 10px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .NewsletterSide-picture_images {
+        flex-direction: row;
+    
+        display: flex;
+        position: relative;
+    }
+    
+    .NewsletterSide-pictureimg {
+        height: 100px;
+    }
+    
+    .NewsletterSide-pictureimg img {
+        height: 120px;
+        width: 100%;
+    }
+
+    .NewsletterSide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .NewsletterSide_list {
+        font-size: 12px;
+        margin: 12px 0;
+    }
+   
+    .NewsletterSide_form {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .NewsletterSide_title {
+        font-size: 18px;
+        margin: 10px 0 10px 0;
+        font-family: 'Baloo Tammudu', cursive;
+        text-align: center;
+    }
+
+    .NewsletterSide_email{
+        height: 15px;
+        width: 170px;
+        border: 1px solid black;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .NewsletterSide_text {
+        font-size: 13px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }   
+
+    .NewsletterSide_submit {
+        margin: 7px 0 20px 0;
+        color: white;
+        background: #0000fe;
+        height: 25px;
+    }
+
+    .NewsletterSide_time {
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .NewaletterSide {
+        margin-top: 10px;
+    }
+
+    .NewsletterSide-picture {
+        position: relative;
+        width: auto;
+        height: 180px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+    
+    .NewsletterSide-picture_images {
+        flex-direction: row;
+        display: flex;
+        position: relative;
+    }
+    
+    .NewsletterSide-pictureimg {
+        height: 180px;
+    }
+    
+    .NewsletterSide-pictureimg img {
+        height: 180px;
+        width: 100%;
+    }
+    
+ 
+    .NewsletterSide_form {
+        text-align: center;
+        margin: 23px 50px 30px 50px;
+     }
+     
+     .NewsletterSide_title {
+        font-size: 24px;
+        margin: 50px 0 70px 0;
+        font-family: 'Baloo Tammudu', cursive;
+      }
+     
+      .NewsletterSide_email{
+        margin: 15px 0 10px 0;
+         height: 20px;
+         border: 1px solid black;
+         text-align: center;
+         margin-right: 10px;
+         width: 300px;
+      }
+     
+      .NewsletterSide_text {
+         font-size: 18px;
+         margin: 50px 0 20px 0;
+         font-weight: bold;
+      }   
+     
+      .NewsletterSide_submit {
+        margin: 10px 0 20px 0;
+        color: white;
+        background: #0000fe;
+        height: 25px;
+      }  
+
+      .NewsletterSide_list {
+        font-size: 18px;
+        margin: 12px 0;
+      }
+  
+      .NewsletterSide-box {
+        margin: 0 10px 150px 10px;
+        text-align: center;
+    }
+
+    .NewsletterSide_time {
+        font-size: 16px;
+    }
+
+}    
+
+@media screen and (min-width: 768px) {
+
+    
+
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

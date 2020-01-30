@@ -1,0 +1,248 @@
+@media screen and (max-width: 600px) {
+    .Register {
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .Register-box {
+        width: 100%;
+        margin-top: 50px; 
+    }
+
+    .Register-title {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .Register-introduction {
+        margin: 20px 20px;
+    }
+
+    .Register-email {
+        color: black;
+        margin: 5px 0;
+        padding: 4px 4px;
+        width: 97%;
+    }
+
+    .Register-password {
+        color: black;
+        margin: 5px 0;
+        padding: 4px 4px;
+        width: 97%;
+    }
+
+    .Submit_button {
+        background: #0000fe;
+        padding: 9px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 15px;
+        margin: 40px 30px 0 30px;;
+    }
+
+    .approved-email {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .approved-email_button {
+        cursor: pointer;
+        position: absolute;
+        left: 22px;
+        top: 24px;
+        font-size: 12px;
+    }
+
+    .approved-email_text {
+        margin: 10px 0 5px 0;
+        font-size: 14px;
+    }
+
+    .checkbox-text {
+        font-size: 12px;
+        position: absolute;
+        top: -3px;
+        left: 20px;
+    }
+
+    .approved-checkbox_box {
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .LoginRegister-rightBox {
+        width: 50%;
+    }
+
+    .Register-form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Register-title {
+         margin: 60px 0 40px 0;
+         text-align: center;
+         font-size: 24px;
+         font-weight: bold;
+    }
+ 
+    .Register-introduction {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+ 
+    .Submit_button {
+         background: #0000fe;
+         padding: 9px;
+         color: #fff;
+         font-weight: bold;
+         font-size: 16px;
+         border-radius: 15px;
+         margin: 40px 30px 0 30px;
+         cursor: pointer;
+     }
+ 
+     .approved-email {
+         margin: 10px 0;
+         font-size: 12px;
+     }
+ 
+     .approved-email_button {
+         cursor: pointer;
+         position: absolute;
+         left: 220px;
+         top: 9px;
+         font-size: 12px;
+     }
+ 
+    
+ 
+     .checkbox-text {
+         font-size: 12px;
+         position: absolute;
+         top: -3px;
+         left: 20px;
+     }
+ 
+     .approved-checkbox_box {
+         position: relative;
+     }
+ 
+    .Register {
+       margin: 0 auto;
+    }
+
+    .Register-form {
+        margin: 0 auto;
+        width: 90%;
+  
+    }
+
+    .Register-email {
+        color: black;
+        margin: 10px 0;
+        padding: 4px 4px;
+        width: 97%;
+    }
+
+    .Register-password {
+        color: black;
+        margin: 10px 0;
+        padding: 4px 4px;
+        width: 97%;
+        -webkit-text-security: disc;
+        -moz-webkit-text-security: disc;
+    }
+
+    .Submit_button {
+        background: #0000fe;
+        padding: 9px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 15px;
+        margin: 40px 0 100px 0;
+    }
+
+    .approved-email {
+        margin: 10px 0;
+    }
+
+    .approved-email_button {
+        cursor: pointer;
+    }
+
+    .approved-email_text {
+        margin: 25px 0 20px 0;
+    }
+
+
+}    
+
+@media screen and (min-width: 768px) {
+
+    .Register-box {
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .Register-form {
+        margin: 0 auto;
+        width: 75%;
+  
+    }
+
+    .email {
+        color: black;
+        margin: 10px 0;
+        padding: 4px 4px;
+        width: 310px; 
+    }
+
+    .password {
+        color: black;
+        margin: 10px 0;
+        padding: 4px 4px;
+        width: 310px; 
+    }
+
+    .Submit_button {
+        background: #0000fe;
+        padding: 9px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 15px;
+        margin-top: 40px;
+    }
+
+    .approved-email {
+        margin: 10px 0;
+    }
+
+    .approved-email_button {
+        cursor: pointer;
+    }
+
+    .approved-email_text {
+        margin: 30px 0;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

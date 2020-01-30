@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+    .RecipeTitle {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .RecipeUndertitle {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .RecipeButton {
+        border: 1px solid black;
+        border-radius: 35px;
+        background: blue;
+        padding: 2px;
+        margin-bottom: 200px;
+        display: flex;
+        width: 190px;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .RecipeButton-position {
+        justify-content: center;
+        display: flex;
+        margin-top: 70px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .RecipeTitle {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .RecipeUndertitle {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .RecipeButton {
+        border: 1px solid black;
+        border-radius: 35px;
+        background: #56ea00;
+        padding: 2px;
+        margin-bottom: 200px;
+        display: flex;
+        width: 190px;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .RecipeButton-position {
+        justify-content: center;
+        display: flex;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+
+
+
+
+}

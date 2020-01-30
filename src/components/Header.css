@@ -1,0 +1,381 @@
+@media screen and (max-width: 600px) {
+    .Header {
+        height: 50px;
+        background: #ffffff;
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+    }
+   
+    .Header-box {
+        width: 200px;
+        height: 100px;
+    }
+
+    .Header_cirle {
+        border: 2px solid #e6d6cc;
+        border-radius: 50%;
+        width: 79px;
+        height: 37px;
+        position: absolute;
+        top: 5px;
+        left: 55px
+    }
+   
+    .Header-name_head {
+        position: absolute;
+        font-family: 'Chango', cursive;
+        font-size: 14px;
+        top:17px;
+        left:55px
+    }
+   
+    .Header-name_under {
+        position: absolute;
+        font-family: 'Acme', sans-serif;
+        font-size: 12px;
+        top:29px;
+        left:98px
+    }
+   
+   
+    .Header-name {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+   
+    .Header-intro {
+        display: none;
+    }
+
+    .Header-leftBox {
+        width: 30px;
+     }
+
+     .Header-middleBox {
+        display: flex;
+        flex:1;
+     }
+
+    .Header-rightBox {
+        width: 50px;
+    }
+
+    .Facebook {
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+    }
+
+    .Instagram {
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+    }
+
+    .Header-rightBox_first {
+        height: 45px;
+    }
+
+    .Header-rightBox_second {
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+   
+  }
+
+  @media screen and (min-width: 600px) {
+    .Header {
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Header_cirle {
+        border: 2px solid #e6d6cc;
+        border-radius: 50%;
+        width: 105px;
+        height: 52px;
+        position: absolute;
+        top: 3px;
+        left: 21px
+    }
+   
+    .Header-leftBox {
+        display: flex;
+        justify-content: center;
+        width: 130px;
+        height: 100px;
+        position: relative;
+    }
+
+    .Header-middleBox {
+        display: flex;
+        align-items: center;
+ 
+    }
+
+    .Header-rightBox {
+        width: 140px;
+        height: 100px;
+    }    
+   
+    .Header-name_head {
+        position: absolute;
+        font-family: 'Chango', cursive;
+        font-size: 20px;
+        top:13px;
+        left:20px
+    }
+   
+    .Header-name_under {
+        position: absolute;
+        font-family: 'Acme', sans-serif;
+        font-size: 16px;
+        top:31px;
+        left:81px
+    }
+   
+   
+    .Header-name {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+   
+    .Header-intro {
+        font-size: 15px;
+        font-family:'Baloo Tammudu', cursive;
+    }
+
+    .Facebook {
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+    }
+
+    .Instagram {
+        height: 20px;
+        width: 20px;
+        padding: 5px;
+    }
+
+    .Header-rightBox_first {
+        height: 38px;
+    }
+
+    .Header-rightBox_second {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+ 
+    .Header {
+        height: 100px;
+       /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;*/
+    }
+
+    .Header_cirle {
+        height: 65px;
+        width: 125px;
+        border: 2px solid #e6d6cc;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 55px;
+
+    }
+   
+    .Header-leftBox {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 100px;
+        position: relative;
+    }
+
+    .Header-middleBox {
+        display: flex;
+        align-items: center;
+ 
+    }
+
+    .Header-rightBox {
+        width: 150px;
+        height: 100px;
+    }    
+   
+    .Header-name_head {
+        position: absolute;
+        font-family: 'Chango', cursive;
+        font-size: 24px;
+        top:26px;
+        left:53px
+    }
+   
+    .Header-name_under {
+        position: absolute;
+        font-family: 'Acme', sans-serif;
+        font-size: 18px;
+        top:45px;
+        left:124px
+    }
+   
+   
+    .Header-name {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+   
+    .Header-intro {
+        font-size: 20px;
+        font-family:'Baloo Tammudu', cursive;
+       /* align-items: center;
+        font-weight: bold;
+        padding: 7px;
+        background: #e6d6cc;
+        box-shadow: 7px 10px #888888;*/
+    } 
+
+    .Header-rightBox_first {
+        height: 60px;
+    }
+
+    .Facebook {
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+    }
+
+    .Instagram {
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+    }
+ }
+
+  @media screen and (min-width: 992px) {
+   
+  }
+
+  @media screen and (min-width: 1024px) {
+    
+
+    .Header-name_head {
+        position: absolute;
+        font-family: 'Chango', cursive;
+        font-size: 32px;
+        top:18px;
+        left:75px
+    }
+   
+    .Header-name_under {
+        position: absolute;
+        font-family: 'Acme', sans-serif;
+        font-size: 24px;
+        top:44px;
+        left:170px
+    }
+
+    .Header_cirle {
+        height: 75px;
+        width: 165px;
+        /*border: 2px solid #e6d6cc;
+        border-radius: 50%;
+        position: absolute;*/
+        top: 10px;
+        left: 78px;
+
+    }
+
+    .Header-intro {
+        font-size: 30px;
+    } 
+  }
+
+/*
+
+ 
+
+.Header_cirle {
+    border: 2px solid #e6d6cc;
+    border-radius: 50%;
+    width: 105px;
+    height: 52px;
+    position: absolute;
+    top: 3px;
+    left: 21px
+}
+
+.Header-leftBox {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 100px;
+    position: relative;
+}
+
+.Header-middleBox {
+    display: flex;
+    align-items: center;
+
+}
+
+.Header-rightBox {
+    width: 140px;
+    height: 100px;
+}    
+
+.Header-name_head {
+    position: absolute;
+    font-family: 'Chango', cursive;
+    font-size: 20px;
+    top:13px;
+    left:20px
+}
+
+.Header-name_under {
+    position: absolute;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    top:31px;
+    left:81px
+}
+
+
+.Header-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Header-intro {
+    font-size: 15px;
+    font-family:'Baloo Tammudu', cursive;
+}
+
+
+
+.Header-rightBox_first {
+    height: 38px;
+}
+
+.Header-rightBox_second {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+*/

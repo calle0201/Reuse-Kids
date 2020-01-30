@@ -1,0 +1,42 @@
+.Startboxmenu {
+    
+   
+}
+
+.Startboxmenu li {
+    display: inline;
+    padding: 10px 10px;
+   
+}
+
+.Startboxmenu-header {
+    border: 2px solid black;
+}
+
+.Startboxmenu-buy {
+    width: 50%;
+    background: #ffd2b3;
+}
+
+.Startboxmenu-sell {
+    width: 50%;
+    background: #fff1cf;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

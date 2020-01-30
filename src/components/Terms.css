@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+
+    .terms {
+        margin: 100px 50px;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+        
+    .terms-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+    }
+        
+    .terms-subtitle {
+            font-size: 20px;
+            text-align: center;
+            margin: 50px 0;
+    }
+         
+}
+    
+@media screen and (min-width: 600px) {
+       
+        
+    .terms {
+            margin: 100px 120px 170px 120px; 
+            line-height: 1.5;
+            font-size: 20px;
+    }
+        
+    .terms-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+    }
+        
+    .terms-subtitle {
+            font-size: 20px;
+            text-align: center;
+            margin: 30px 0;
+            font-weight: bold;
+    }
+      
+        
+       
+}
+    
+@media screen and (min-width: 768px) {
+     
+}
+    
+@media screen and (min-width: 992px) {
+     
+}
+    
+@media screen and (min-width: 1024px) {
+     
+}
+

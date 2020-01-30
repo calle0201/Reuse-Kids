@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+
+    .LoginRegister-rightBox_title {
+        text-align: center;
+        font-size: 14px;
+     }
+  
+     .LoginRegister-Box {
+         margin: 0 auto;
+         display: flex;
+         flex-direction: column;
+        
+     }
+     
+     .LoginRegister-leftBox {
+         width: 100%;
+     }
+     
+     .LoginRegister-rightBox {
+         width: 100%;
+         margin-bottom: 150px;
+     }
+     
+     .LoginRegister-picture {
+      
+     }
+     
+     .LoginRegister-pictureimg {
+     
+     }
+     
+     .LoginRegister-pictureimg img {
+         height: 150px;
+         width: 100%;
+     }
+
+}
+    
+@media screen and (min-width: 600px) {
+    
+        .LoginRegister-rightBox_title {
+           text-align: center;
+        }
+     
+        .LoginRegister-Box {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+           
+        }
+        
+        .LoginRegister-leftBox {
+            width: 50%;
+        }
+        
+        .LoginRegister-rightBox {
+            width: 50%;
+        }
+        
+        .LoginRegister-picture {
+         
+        }
+        
+        .LoginRegister-pictureimg {
+        
+        }
+        
+        .LoginRegister-pictureimg img {
+            height: 150px;
+            width: 100%;
+        }
+
+        .LoginRegister-rightBox_title {
+            font-size: 22px;
+        }
+
+        .Login_register-Footer_Position {
+            height: 170px;
+        }
+
+
+ 
+    
+    
+    
+    }
+    
+    @media screen and (min-width: 768px) {
+     
+    }
+    
+    @media screen and (min-width: 992px) {
+     
+    }
+    
+    @media screen and (min-width: 1024px) {
+     
+    }
+    
+    
+    
+
+    

@@ -1,0 +1,9 @@
+.ThanksAd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThanksAd-title {
+    margin-top: 60px;
+}

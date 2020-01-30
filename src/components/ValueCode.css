@@ -1,0 +1,79 @@
+@media screen and (max-width: 600px) {
+    .Price-input {
+        padding: 3px 0;
+        height: 15px;
+    }
+    
+    .Price-submit {
+        background: #0000fe;
+        border-radius: 15px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px;
+    }
+    
+    .Price-text {
+        padding: 10px 0 15px 0;
+    }
+
+    .Price-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Price-outerBox {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 601px) {
+
+    .Price-input {
+        padding: 3px 0;
+        height: 15px;
+        margin-top: 4px;
+    }
+    
+    .Price-submit {
+        margin-left: 20px;
+        background: #0000fe;
+        border-radius: 15px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px;
+    }
+    
+    .Price-text {
+        padding: 10px 0 5px 0;
+    }
+
+    .Price-box {
+        display: flex;
+        flex-direction: row;   
+    }
+
+    .Price-outerBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+   
+   
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+
+}
+

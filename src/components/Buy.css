@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px) {
+
+    .Buy {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .Buy-Product {
+        border: 1px solid black;
+        margin: 10px 10px;
+        width: 200px;
+        height: 250px;
+        padding: 15px 15px;
+        cursor: pointer;
+    }
+    
+    .Buy-Product a{
+        text-decoration: none;
+    }
+    
+    
+    .Buy-content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .Buy-content_position {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Buy-picture {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .Buy-pictureimg img {
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        height: 400px;
+        top: -90px;
+    }
+    
+    .Buy-gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+    
+ 
+    
+    }
+    
+    @media screen and (min-width: 600px) {
+        .Buy {
+    
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .Buy-Product {
+            border: 1px solid black;
+            margin: 10px 10px;
+            width: 200px;
+            height: 250px;
+            padding: 15px 15px;
+            cursor: pointer;
+        }
+        
+        .Buy-Product a{
+            text-decoration: none;
+        }
+        
+        
+        .Buy-content {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .Buy-content_position {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .Buy-picture {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        
+        .Buy-pictureimg img {
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            height: 400px;
+            top: -90px;
+        }
+        
+        .Buy-gallery {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+     
+    }
+    
+    @media screen and (min-width: 992px) {
+     
+    }
+    
+    @media screen and (min-width: 1024px) {
+     
+    }
+
+
+

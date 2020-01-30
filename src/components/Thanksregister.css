@@ -1,0 +1,9 @@
+.Thanksregister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Thanksregister_title {
+    margin-top: 60px;
+}

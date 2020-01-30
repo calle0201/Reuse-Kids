@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 600px) {
+ 
+    
+}
+    
+@media screen and (min-width: 600px) {
+    
+    .Compounds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Compounds-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Compounds-logga {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .Compounds-logga img {
+        border-radius: 50%;
+    }
+
+    .Compounds-logga_smallBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Compounds-logga_small{
+        display: flex;
+        justify-content: center;
+        margin: 20px 20px;
+
+    }
+
+    .Compounds-logga_small img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px; 
+    }
+    
+}
+    
+@media screen and (min-width: 768px) {
+     
+}
+    
+@media screen and (min-width: 992px) {
+     
+}
+    
+@media screen and (min-width: 1024px) {
+     
+}
+    
+    
+    
+
+    

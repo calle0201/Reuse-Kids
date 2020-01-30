@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+
+    .close {
+        display: none;
+    }
+
+    .open {
+        background: #e9d7cd;
+        color: black;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+    }
+
+
+    .HeadMenu {
+        display:flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+
+    .HeadMenu a {
+        text-align: center;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        padding: 2px 0;
+    }
+         
+}
+    
+@media screen and (min-width: 600px) {
+       
+    .HeadMenu {
+        background: #e9d7cd;
+        padding: 12px 0;
+    }  
+
+    NavLink {
+        cursor: pointer;
+    }
+        
+       
+}
+    
+@media screen and (min-width: 768px) {
+     
+}
+    
+@media screen and (min-width: 992px) {
+     
+}
+    
+@media screen and (min-width: 1024px) {
+     
+}
+

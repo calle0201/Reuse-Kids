@@ -1,0 +1,335 @@
+@media screen and (max-width: 600px) {
+    
+    .form_title {
+        margin: 20px;
+        width: 300px;
+    
+    }
+    
+    .form_text {
+        width: 300px;
+        height: 150px;
+    }
+    
+    .form_sports{
+        margin: 20px;
+    }
+    
+    .Sell-Box {
+
+    }
+    
+    .Sell-form {
+        padding: 20px 25px 100px 25px;
+        margin: 0 auto;
+    }
+    
+    .Sell-input {
+       width: 100%;
+       height: 20px;
+    }
+    
+    .Sell-input_title {
+        margin: 25px 0px 0px 0px;
+        
+    }
+    
+    .Sell-content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+    
+    .Sell-content_position {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .Sell-picture {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .Sell-pictureimg img {
+        width: 100%;
+        z-index: -1000;
+        position: absolute;
+        height: 500px;
+    }
+    
+    
+    .Sell-titleBox {
+       z-index: 20;
+       position: absolute;
+    }
+    
+    .Sell-titleBoxtext {
+        font-size: 24px;
+    }
+    
+    #id {
+        margin-bottom: 30px;
+    }
+    
+    #sub {
+        margin-bottom: 50px;
+    }
+    
+   
+    .Sell-Box {
+        background-color: white;
+    }
+
+    .Sell-text {
+        height: 50px;
+    }
+    
+    .Sell-title {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .Sell-intro {
+        font-size: 11px;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    .Sell-picture {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .Sell-seePicture {
+        width: 100px;
+        margin: 10px 5px 5px 0;
+    }
+
+    .Sell-accept {
+        margin-bottom: 20px;
+    }
+
+    .Sell-accept_box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Sell-innerBox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Sell-submit {
+        background: #0000fe;
+        padding: 6px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .acceptData-checkbox {
+        margin-right: 10px;
+    }
+
+    .acceptPicture-checkbox {
+        margin-right: 10px;
+    }
+
+    .acceptData-text {
+        font-size: 12px;
+    }
+
+    .acceptPicture-text {
+        font-size: 12px;
+    }
+
+    .Accept-text {
+        cursor: pointer;
+    }
+
+    
+    .registerLink {
+        cursor: pointer;
+    }
+
+    .attention {
+        color: red;
+        font-size: 12px;
+        margin: 10px;
+        text-align: center;
+    }
+   
+    
+    }
+    
+    @media screen and (min-width: 600px) {
+
+        .attention { 
+            color: red;
+            font-size: 18px;
+            margin: 10px;
+            text-align: center;
+        }    
+
+        .outerBox {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid red;
+            position: relative;
+        }
+        
+        .Sell {
+            width: 100%;
+            position: absolute;
+        }
+
+
+        .Sell-picture {
+            position: relative;
+            width: 100%;
+            height: 900px;
+        }
+        
+        .Sell-pictureimg img {
+            width: 100%;
+            z-index: -1000;
+            position: absolute;
+            height: 200px;
+        }
+
+        .Sell-Box {
+            position: absolute;
+            z-index: 2000;
+            width: 600px;
+            height: 600px;
+            background: #fff;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 120px;
+            padding: 15px 15px;
+        }
+
+        .Sell-title {
+            text-align: center;
+        }
+
+        .Sell-intro {
+            font-size: 20px;
+            font-weight: normal;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .Sell_text {
+            text-align: center;
+        }
+
+        .Sell-form {
+            padding: 50px 0 100px 0;
+            width: 60%;
+            margin: 0 auto;
+        }
+        
+        .Sell-input {
+           width: 100%;
+           height: 25px;
+           margin-top: 7px; 
+           padding: 0;
+        }
+
+        .Sell-seePicture {
+            width: 100px;
+            margin: 10px 5px 5px 0;
+        }
+        
+        .Sell-sport {
+            width: 100%;
+        }
+
+        .Sell-innerBox {
+            margin: 20px 10px;
+        }
+
+        .Sell-text {
+            height: 50px;
+            font-weight: normal;
+        }
+
+        .Sell-name {
+            width: 100%;
+        }
+
+        .Sell-submit {
+            background: #0000fe;
+            padding: 9px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-top: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+     
+     
+        .Sell-accept {
+            margin-bottom: 20px;
+        }
+
+        .Sell-accept_box {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .acceptData-checkbox {
+            margin-right: 10px;
+        }
+
+        .acceptPicture-checkbox {
+            margin-right: 10px;
+        }
+
+        .acceptData-text {
+            font-size: 12px;
+        }
+
+        .acceptPicture-text {
+            font-size: 12px;
+        }
+
+        .Accept-text {
+            cursor: pointer;
+        }
+    
+        
+        .registerLink {
+            cursor: pointer;
+        }
+
+        .Sell-Footer_position {
+            height: 2100px;
+        }
+ 
+    }
+    
+    @media screen and (min-width: 768px) {
+     
+    }
+    
+    @media screen and (min-width: 992px) {
+     
+    }
+    
+    @media screen and (min-width: 1024px) {
+     
+    }

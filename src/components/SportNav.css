@@ -1,0 +1,227 @@
+@media screen and (max-width: 600px) {
+    .Nav {
+        height: 45px;
+        display: inline-block;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .Nav ul {
+        margin-bottom: 0;
+        list-style-type:none;
+        background: #e9d7cd;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .Nav li {
+        padding: 6px 0px; 
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    
+    
+    .Nav li a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+    
+    
+    .SubNav {
+        height: 30px;
+       /* display: inline-block;*/
+    
+    }
+    
+    .SubNav ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 14px;
+        margin-bottom: -18px;
+    }
+    
+    
+    .SubNav li {
+        display: inline;
+        padding: 2px 2px;
+        
+    }
+    
+    
+    .SubNav li a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+    
+    
+    .subNav_Box {
+    
+        margin: 10px;
+        text-align: center;
+
+    }
+    
+    .login a {
+        text-align: right;
+    }
+
+    .Hamburger-icon { 
+        cursor: pointer;
+        position: relative;
+        left: 10px;
+        
+    }
+
+    .Hamburger-checkbox {
+        position: relative;
+        left: -5px;
+        z-index: 2000;
+        opacity: 0;
+    }
+
+    .SportNav label {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .Nav ul  {
+      /* display: none;*/
+    }
+
+    .Nav input:checked ~ ul {
+        display: block;
+    }
+
+    .openMenu ul{
+        display: block;
+        color: pink;
+    }
+
+    .open Subnav ul {
+    
+        background: grey;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .close ul {
+        /*display: none;*/
+    }
+  }
+  @media screen and (min-width: 600px) {
+
+.Nav {
+    height: 45px;
+    display: inline-block;
+    background: #e9d7cd;
+    width: 100%;
+}
+
+.Nav ul {
+    margin-bottom: 10px;
+}
+
+.Nav li {
+    display: inline;
+    padding: 10px 10px;
+    
+}
+
+
+.Nav li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.SubNav {
+    height: 30px;
+    display: inline-block;
+
+}
+
+.SubNav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    
+
+}
+
+
+.SubNav li {
+    display: inline;
+}
+
+
+.SubNav li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.subNav_border {
+    margin: 0px 40px 40px 40px;
+
+}
+
+.subNav_Box {
+    width: 80px;
+    height: 5px;
+}
+
+.login a{
+    text-align: right;
+}
+
+
+.HomeBuy {
+    
+}
+
+.HomeSell {
+
+}
+
+.HomeBox {
+    border: 1px solid red;
+}
+
+.SportNav label, #Hamburger-btn {
+    display: none;
+}
+
+.Hamburger-icon {
+    display: none;
+}
+
+.open li{
+    color: red;
+    display: block;
+
+}
+
+.close li{
+    color: green;
+}
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

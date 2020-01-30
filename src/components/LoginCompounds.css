@@ -1,0 +1,58 @@
+
+
+@media screen and (max-width: 600px) {
+   
+
+  
+  
+  
+   
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .CompoundsLogin {
+        margin: 0 auto;
+    }
+
+    .CompoundsLogin-title {
+        text-align: center;
+    }
+
+    .CompoundsLogin-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .CompoundLogin-compound {
+        width: 250px;
+        margin: 5px;
+    }
+
+    .CompoundLogin-password {
+        width: 250px;
+        margin: 5px;
+    }
+
+
+
+}    
+
+@media screen and (min-width: 768px) {
+
+   
+
+  
+
+
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

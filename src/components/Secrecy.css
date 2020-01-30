@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    .SecrecyTitle {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .SecrecyText {
+        text-align: center;
+        margin: 0 10px;
+        line-height: 1.2;
+    }
+
+    .firstText {
+        margin-bottom: 20px;
+    }
+
+   
+}
+@media screen and (min-width: 600px) {
+    .Secrecy-box {
+        margin: 0 20px;
+    }
+
+    .SecrecyTitle {
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    .SecrecyText {
+        text-align: center;
+        font-size: 20px; 
+    }
+
+    .firstText {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+   
+}

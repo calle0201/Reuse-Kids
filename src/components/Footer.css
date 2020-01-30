@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 600px) {
+    .Footer {
+        height: 70px;
+        background: #e9d7cd; 
+        z-index: 10000;
+        padding-bottom: 10px;
+    }
+
+    .Footer-taxes {
+        text-align: center;
+    }
+    
+    .Footer-name {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .Footer-intro {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Footer {
+        height: 70px;
+        background: #e9d7cd;
+        display: flex;
+        display: row;
+    }
+ 
+    .Footer-name {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .Footer-intro {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .Footerbox-left {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Footerbox-middle {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Footerbox-right {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+
+}

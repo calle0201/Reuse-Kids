@@ -1,0 +1,203 @@
+@media screen and (max-width: 600px) {
+
+.Advertisment {
+    display: flex;
+    flex-direction: row;
+    padding: 0 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.Advertisment-bottom {
+    margin-bottom: 150px;
+}
+
+.Advertisment-outsideBox {
+    margin: 10px 10px; 
+}
+
+.AdvertismentBox {
+    width: 150px;
+    height: 210px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.AdvertismentBox:hover {
+    cursor: pointer;
+}
+
+.AdvertismentBox-margin {
+    margin: 10px 10px;
+}
+
+.Advertisment_title {
+    font-size: 24px;
+    text-align: center;
+    height: 25px;
+}
+
+.Advertisment_titleText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Advertisment_subtitle {
+    font-size: 12px;
+}
+
+.AdvertismentBox_imageBox {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    width: 130px;
+    height: 98px;
+    position: relative;
+    overflow: hidden;
+}
+
+.AdvertismentBox_image {
+    height: 100%;
+    position: absolute;
+}
+
+.AdvertismentBox_price {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.AdvertismentBox_title {
+    font-size: 14px;
+    text-align: center;
+    background:black;
+    color: white;
+    margin: 0px 0px;
+    padding: 5px 0;
+}
+
+.AdvertismentBox_date {
+    display: none;
+}
+
+.AdvertismentBox_county {
+    font-size: 12px;
+    text-align: center;
+}
+
+.AdvertismentBox_title::first-letter {
+    text-transform: uppercase;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+    .Advertisment {
+        display: flex;
+        flex-direction: row;
+        padding: 0 40px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    
+    .AdvertismentBox {
+        width: 150px;
+        height: 210px;
+        border: 2px solid #000000;
+        margin: 30px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .AdvertismentBox:hover {
+        cursor: pointer;
+    }
+    
+    .Advertisment_title {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .Advertisment_subtitle {
+        text-align: center;
+        font-size: 18px;
+        margin: 50px 0 70px 0;
+        font-weight: normal;
+    }
+
+    
+    .AdvertismentBox_imageBox {
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px;
+        width: 130px;
+        height: 98px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .AdvertismentBox_image {
+        height: 100%;
+        position: absolute;
+    }
+    
+    .AdvertismentBox_price {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    .AdvertismentBox_title {
+        font-size: 12px;
+        text-align: center;
+        background:black;
+        color: white;
+        padding: 5px;
+        margin: 0px 0px;
+        padding: 6px 0;
+    }
+
+    .AdvertismentBox_title::first-letter {
+        text-transform: uppercase;
+    }
+    
+    .AdvertismentBox_date {
+        display: none;
+    }
+    
+    .AdvertismentBox_county {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .Alladvertisment {
+        display: none;
+    }
+
+    .Advertisment-homepage {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+    .Advertisment {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Advertisment {
+        margin-bottom: 210px;
+    }
+}

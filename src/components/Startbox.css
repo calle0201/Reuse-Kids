@@ -1,0 +1,24 @@
+.Startbox {
+    margin: 0 auto;
+    width: 680px;
+    height: auto;
+    border: 1px solid #aa9fad;
+    background: ;
+}
+
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

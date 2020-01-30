@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+  .SubNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+   
+ }
+
+ .SubNavigation a {
+    padding: 4px 4px;
+    text-decoration: none;
+}
+    
+  
+}
+
+@media screen and (min-width: 600px) {
+  .SubNavigation  {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 30px;
+
+  }
+
+  .Nav_link a {
+      padding: 10px;
+  }
+    
+
+  a {
+    padding: 5px;
+    text-decoration: none;
+  }
+   
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  a {
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+  
+}

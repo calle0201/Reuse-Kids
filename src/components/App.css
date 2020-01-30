@@ -1,0 +1,135 @@
+@media screen and (max-width: 600px) {
+    :root {
+        --space: 1.5em 0;
+        --space: 2em 0;
+    }
+    
+    .Site {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .Site-content {
+        flex: 1 0 auto;
+        width: 100%;
+        padding: var(- space) var(- space) 0;
+    }
+    
+    .Site-content:after {
+        content: '\00a0';
+        display: block;
+        height: 0;
+        visibility: hidden;
+        margin-top: var(--space);
+    }
+    
+    .App {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .App-header {
+        height: 140px;
+    }
+    
+    
+    h1 {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }  
+    
+    h3 {
+        font-size: 12px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .top {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    :root {
+        --space: 1.5em 0;
+        --space: 2em 0;
+    }
+    
+    .Site {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .Site-content {
+        flex: 1 0 auto;
+        width: 100%;
+        padding: var(- space) var(- space) 0;
+    }
+    
+    .Site-content:after {
+        content: '\00a0';
+        display: block;
+        height: 0;
+        visibility: hidden;
+        margin-top: var(--space);
+    }
+    
+    .App {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .App-header {
+        height: 140px;
+    }
+    
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }  
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .top {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 34px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }  
+    
+    h3 {
+        font-size: 18px;
+    }
+}

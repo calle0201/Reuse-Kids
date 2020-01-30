@@ -1,0 +1,107 @@
+@media screen and (max-width: 600px) {
+
+    .Goodtoknow-content {
+        margin: 0 auto;
+    }
+
+    .Goodtoknow-box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px 140px 30px;
+    }
+
+    .Goodtoknow-title {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 30px 0;
+    }
+
+    .Goodtoknow-subtitle {
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .Goodtoknow-tableBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    .Goodtoknow-table {
+        font-weight: normal;
+        justify-content: center;
+        
+    }
+
+    .Goodtoknow-picture {
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (min-width: 600px) {
+
+    .Goodtoknow {
+        margin: 0 20px;
+        display: flex;
+    }
+
+    .Goodtoknow-content {
+        margin: 0 auto;
+    }
+
+    .Goodtoknow-title {
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'baloo Tammudu', cursive;
+        font-size: 22px;
+    }
+
+    .Goodtoknow-subtitle {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .Goodtoknow-box {
+        margin: 0px 80px;
+    }
+    
+    .Goodtoknow-tableBox {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    .Goodtoknow-table {
+        font-weight: normal;
+    }
+
+    .Goodtoknow-picture {
+        margin: 30px 0px;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+    th {
+       font-weight: normal;
+    }
+
+    .table-title {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

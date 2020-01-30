@@ -1,0 +1,27 @@
+.Sellbox {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+    background: #fff1cf;
+}
+
+.selltitle {
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}

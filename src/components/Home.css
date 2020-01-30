@@ -1,0 +1,436 @@
+@media screen and (max-width: 600px) {
+        
+    .Home {
+        max-width: 600px;
+        
+    }
+   
+    .Home-text {
+        font-size: 14px;
+        padding: 20px 0 70px 0;
+        line-height: 1.5;
+        font-weight: 500;    
+    }
+
+    .Header-title {
+        display: none;
+    }
+
+    .Header-info {
+        font-size: 16px;
+        margin: 40px 0;
+        color: red;
+        font-weight: normal;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Home-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+
+    .Home-content_position {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Home-content_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Home-content_right-title {
+        display: none;
+    }
+
+    .Home-header {
+        padding: 5px 20px 0 20px;
+    }
+
+    .Home-picture {
+        position: relative;
+        width: auto;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    .Home-picture_images {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+    }
+
+    .Home-pictureimg {
+        width: 25%;
+        position: relative;
+    }
+
+    .Home-pictureimg img {
+        width: 100%;
+    }
+
+    .Home-title {
+        position: absolute;
+        top: 0px;
+        left: 160px;
+        font-size: 11px;
+        padding: 20px 0;
+        z-index: 100;
+        font-family: 'Baloo Tammudu', cursive;
+    }
+
+    .Home-titleBox {
+        background: white;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 570px;
+        height: 50px;
+        z-index: 500;
+        opacity: 0.5;
+    }
+    
+    .Home-content_position {    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Home-content-text {    
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Header-info {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .Home-box {
+        border: 2px solid red;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .Home-info {
+        text-align: center;
+    }
+
+    .Home-subinfo {
+        text-align: center;
+    }
+
+    .Image_skiing {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+    }
+
+    .Image_riding {
+        position: absolute;
+        top: -15px;
+        left: 25%;
+    }
+
+    .Image_figureskating {
+        position: absolute;
+        top: -10px;
+        right: 25%;
+    }
+
+    .Image_lacrosse {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+   
+  }
+
+  @media screen and (min-width: 600px) {
+   
+   
+    .Home-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home-content_left{
+        width: 0%;
+    }
+
+    .Home-content_middle{
+       flex: 1;
+       justify-content: center;
+    }
+
+    .Home-content_right {
+        justify-content: center;
+    }
+
+    .Home-content_right-title {
+        display: none;
+    }
+   
+    .Header-title {
+        font-size: 24px;
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    .Header-info {
+        font-size: 18px;
+        margin: 40px 0;
+        font-weight: normal;
+    }
+
+    .Home-title {
+        font-size: 40px;
+    }
+
+    .Home-text {
+        font-size: 20px;
+        padding: 0 0 70px 0;
+        line-height: 1.5;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Home-content_position {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home-header {
+        margin: 0 40px;
+    }
+
+    .Home-picture {
+        position: relative;
+        width: auto;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .Home-picture_images {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+    }
+
+    .Home-pictureimg {
+        width: 25%;
+        position: relative;
+    }
+
+    .Home-pictureimg img {
+        width: 100%;
+    }
+
+    .Header-info {
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .Header-subinfo {
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .Home-title {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding: 20px 0;
+        z-index: 100;
+        font-family: 'Baloo Tammudu', cursive;
+    }
+
+    .Home-titleBox {
+        background: white;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 620px;
+        height: 110px;
+        z-index: 500;
+        opacity: 0.5;
+    }
+
+    .Home-content-text {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+
+    .Home-info {
+        text-align: center;
+        color: red;
+    }
+
+    .Home-subinfo {
+        text-align: center;
+        color: red;
+        margin-bottom: 50px;
+    }
+
+    .Image_skiing {
+        position: absolute;
+        top: -15px;
+        left: 0px;
+    }
+
+    .Image_riding {
+        position: absolute;
+        top: -15px;
+        left: 25%;
+    }
+
+    .Image_figureskating {
+        position: absolute;
+        top: -10px;
+        right: 25%;
+    }
+
+    .Image_lacrosse {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+   
+  }
+
+  @media screen and (min-width: 768px) {
+   .Home-header {
+       margin: 0 20px;
+   }
+
+   .Image_skiing {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+}
+
+.Image_riding {
+    position: absolute;
+    top: -35px;
+    left: 25%;
+}
+
+.Image_figureskating {
+    position: absolute;
+    top: -50px;
+    right: 25%;
+}
+
+.Image_lacrosse {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+   
+  }
+
+  @media screen and (min-width: 992px) {
+    .Image_skiing {
+        position: absolute;
+        top: -55px;
+        left: 0px;
+    }
+
+    .Image_riding {
+        position: absolute;
+        top: -35px;
+        left: 25%;
+    }
+
+    .Image_figureskating {
+        position: absolute;
+        top: -50px;
+        right: 25%;
+    }
+
+    .Image_lacrosse {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .Home {
+        min-width: 1024px;
+    }  
+
+    .Home-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Home-content_left{
+        width: 15%;
+    }
+
+    .Home-content_middle{
+       flex: 1;
+       justify-content: center;
+    }
+
+    .Home-content_right {
+        width: 15%;
+        justify-content: center;
+
+    }
+
+    .Image_skiing {
+        position: absolute;
+        top: -95px;
+        left: 0px;
+    }
+
+    .Image_riding {
+        position: absolute;
+        top: -50px;
+        left: 25%;
+    }
+
+    .Image_figureskating {
+        position: absolute;
+        top: -60px;
+        right: 25%;
+    }
+
+    .Image_lacrosse {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+   
+  }
+
+
+
+
+
