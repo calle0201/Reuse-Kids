@@ -296,7 +296,7 @@ class Sell extends Component {
 
                 <div className="Sell-Box">
                     <div className="Sell-innerbox">
-                        <h1 className="Sell-title">Har du begagnad barn produkter som inte används?</h1> 
+                        <h1 className="Sell-title">Har du begagnade barn produkter som inte används?</h1> 
                         <h2 className="Sell-intro">Sälj dem hos oss, det finns många som gärna vill köpa.</h2>
                         <h2 className="Sell-intro">För att lägga in din första annons måste du skapa ett användarkonto. Registrera dig <div className="registerLink" onChange={this.registerUser.bind(this)} onClick={this.register}>här </div></h2> 
 

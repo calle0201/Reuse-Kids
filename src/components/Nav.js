@@ -8,7 +8,6 @@ import Contact from './Contact';
 import Sell from './Sell'; 
 import Buy from './Buy';
 import Rentadvertisment from './Rentadvertisment';
-import Rent from './Rent';
 import Register from './Register';
 import LoginRegister from './LoginRegister';
 import Goodtoknow from './Goodtoknow';
