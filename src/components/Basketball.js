@@ -77,11 +77,11 @@ class Basketball extends Component {
             return (
                 <div>
                      <Helmet>
-                        <title>Begagnad basketutrustning </title>
+                        <title>Begagnade barn kläder </title>
                         <meta name="description" content="Webbsida för begagnade basketstativ, basketkorgar, basketbollar, basketskor, basketkläder, basketväskor." />
                     </Helmet>
-                <h1 className="Advertisment_title">Basket</h1>
-                <h3 className="Advertisment_subtitle">Här finns det basketutrustning som basketbollar, basketkorgar och skor. Är sidan tom finns det inga annonser för tillfället.</h3>
+                <h1 className="Advertisment_title">Barn kläder</h1>
+                <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
 
                 <div className="Advertisment">
                         {

@@ -70,11 +70,11 @@ class Boxing extends Component {
       return (
         <div>
              <Helmet>
-                <title>Begagnad boxningsutrustning </title>
+                <title>Begagnade säkerhetsanordningar  </title>
                 <meta name="description" content="Webbsida för begagnade boxningshandskar, boxningsboll, boxningsställning, boxboll, slagdocka, boxningssäck, päronboll, punch pad" />
             </Helmet>
-            <h1 className="Advertisment_title">Boxning</h1>
-            <h3 className="Advertisment_subtitle">Här finns det boxningsutrustning som handskar, boxningssäckar, kläder och skydd. Är sidan tom finns det inga annonser för tillfället.</h3>
+            <h1 className="Advertisment_title">Säkerhetsanordningar</h1>
+            <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
 
             <div className="Advertisment">
              

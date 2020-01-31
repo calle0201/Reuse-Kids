@@ -17,7 +17,7 @@ export default UploadImage;
       this.state = {
           picture: '',
           file: '',
-          imagePreviewUrl: ''
+          imagePreviewUrl: ''z
         };
 
        // this.loadPicture = this.loadPicture.bind(this);

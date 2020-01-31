@@ -72,11 +72,11 @@ class Badminton extends Component {
       return (
         <div>
             <Helmet>
-                <title>Begagnad badmintonutrustning </title>
+                <title>Begagnade barn möbler </title>
                 <meta name="description" content="Webbsida för begagnade badmintonrack, badmintonbollar och badmintonväska." />
             </Helmet>
-            <h1 className="Advertisment_title">Badminton</h1>
-            <h3 className="Advertisment_subtitle">Här finns det badmintonutrustning som racket och skor. Är sidan tom finns det inga annonser för tillfället.</h3>
+            <h1 className="Advertisment_title">Barn möbler</h1>
+            <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
 
             <div className="Advertisment">
            

@@ -74,10 +74,10 @@ class Cars extends Component {
       return (
         <div>
              <Helmet>
-                <title>Begagnade tävlingsbilar </title>
+                <title>Begagnade Cycklar för barn </title>
                 <meta name="description" content="Webbsida för begagnade racerbilar, folkracebilar, dragracing, rallycross" />
             </Helmet>
-        <h1 className="Advertisment_title">Bilsport</h1>
+        <h1 className="Advertisment_title">Cycklar för barn</h1>
         <h3 className="Advertisment_subtitle">Här finns det bilar och utrustning som reservdelar, hjälmar och skyddskläder. Är sidan tom finns det inga annonser för tillfället.</h3>
         
         <div className="Advertisment">

@@ -74,11 +74,11 @@ class Bandy extends Component {
       return (
         <div>
              <Helmet>
-                <title>Begagnad bandyutrustning </title>
+                <title>Begagnade Barn leksaker </title>
                 <meta name="description" content="Webbsida för begagnade bandyskridskor, bandyklubba, bandyhjälm, bandybyxor, bandyskydd, bandyhandskar." />
             </Helmet>
-        <h1 className="Advertisment_title">Bandy</h1>
-        <h3 className="Advertisment_subtitle">Här finns det bandyutrustning som skridskor, hjälmar och klubbor. Är sidan tom finns det inga annonser för tillfället.</h3>
+        <h1 className="Advertisment_title">barn leksaker</h1>
+        <h3 className="Advertisment_subtitle"> Är sidan tom finns det inga annonser för tillfället.</h3>
         
         <div className="Advertisment">
          
