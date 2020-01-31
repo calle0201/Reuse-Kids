@@ -81,7 +81,7 @@ class Other extends Component {
                         <title>Begagnade barn produkter </title>
                         <meta name="description" content="Webbsida för begagnade löparkläder, träningskläder, frisbeedisc, frisbeediscväska, bordtennisrack, bordtennisbord. löparskor och skydd." />
                     </Helmet>
-                <h1 className="Advertisment_title">Övriga sporter</h1>
+                <h1 className="Advertisment_title">Övriga barn produkter</h1>
                 <h3 className="Advertisment_subtitle">Här finns utrustning som inte passar in under någon annan rubrik som löparskor, enklare skridskor och vanliga träningskläder. Är sidan tom finns det inga annonser för tillfället.</h3>
 
                 <div className="Advertisment">

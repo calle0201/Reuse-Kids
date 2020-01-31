@@ -12,12 +12,12 @@ history.listen((location, action) => {
     console.log(location.pathname)
 });
 
-class Airsport extends Component {
+class Air extends Component {
         
     constructor(props) {
         super(props);
         this.state = {
-          datasport: null,
+          data: null,
           clicked: null,
           ads: []
         };
@@ -35,10 +35,10 @@ class Airsport extends Component {
         const Ads = 'hidden';
         this.props.hideAds(Ads);
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = process.env.REACT_APP_REUSE_DB_HOST; 
+        let user = process.env.REACT_APP_REUSE_DB_USER 
+        let password = process.env.REACT_APP_REUSE_DB_PASSWORD
+        let database = process.env.REACT_APP_REUSE_DB_NAME
 
         var obj = {  
             method: 'POST',
@@ -52,7 +52,7 @@ class Airsport extends Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/airsport.php', obj)
+        fetch('https://reuse.se/APIs/air.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();
@@ -76,11 +76,11 @@ class Airsport extends Component {
       return (
         <div>
             <Helmet>
-                <title>Begagnade sportflygplan </title>
-                <meta name="description" content="Webbsida för begagnade sportflygplan och utrustning till flygplanen." />
+                <title>Begagnade flygplan </title>
+                <meta name="description" content="Webbsida för begagnade flygplan och utrustning till flygplanen." />
             </Helmet>
-            <h1 className="Advertisment_title">Flygsport</h1>
-            <h3 className="Advertisment_subtitle">Här finns det sportflygplan av olika sorter och tillbehör till dem samt utrustning och tillbehör till piloten. Är sidan tom finns det inga annonser för tillfället.</h3>
+            <h1 className="Advertisment_title">Flyg</h1>
+            <h3 className="Advertisment_subtitle">Här finns det flygplan av olika sorter och tillbehör till dem samt utrustning och tillbehör till piloten. Är sidan tom finns det inga annonser för tillfället.</h3>
             <div className="Advertisment Advertisment-bottom">
                     {
                         this.state.ads ?
@@ -105,4 +105,4 @@ class Airsport extends Component {
   }
 }
 
-export default Airsport;
+export default Air;

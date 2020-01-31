@@ -5,39 +5,9 @@ import Product from './Product';
 import Badminton from './Badminton'; 
 import Bandy from './Bandy'; 
 import Cars from './Cars';
-import Football from './Football'; 
-import Figureskating from './Figureskating'; 
-import Icehockey from './Icehockey'; 
-import Lacrosse from './Lacrosse'; 
 import Basketball from './Basketball'; 
 import Boxing from './Boxing'; 
-import Wrestling from './Wrestling'; 
-import Archery from './Archery'; 
-import Cheerleading from './Cheerleading'; 
-import Bike from './Bike'; 
-import Dance from './Dance'; 
-import Diving from './Diving'; 
-import Skydiving from './Skydiving'; 
-import Airsport from './Airsport'; 
-import Fencing from './Fencing'; 
-import Golf from './Golf'; 
-import Gymnastics from './Gymnastics'; 
-import Athletics from './Athletics'; 
-import Floorball from './Floorball'; 
-import Martialart from './Martialart'; 
-import Canoe from './Canoe'; 
-import Climbing from './Climbing'; 
-import Motorized from './Motorized'; 
-import Tennis from './Tennis'; 
-import Riding from './Riding'; 
-import Rugby from './Rugby'; 
-import Sailing from './Sailing'; 
-import Ski from './Ski'; 
-import Waterskiing from './Waterskiing'; 
-import Windsurfing from './Windsurfing'; 
 import Other from './Other'; 
-
-import Handball from './Handball'; 
 import Footer from './Footer'; 
 import Search from './Search'; 
 import Alladvertisment from './Alladvertisment'; 
@@ -98,7 +68,6 @@ class Buy extends React.Component {
                     <Route path="/Basketball" render={() => <Basketball hideAds={this.hideAds} />}/>
                     <Route path="/Boxing"  render={() => <Boxing hideAds={this.hideAds} />}/>
                     <Route path="/Cars"  render={() => <Cars hideAds={this.hideAds} />}/>
-                    <Route path="/Wrestling" render={() => <Wrestling hideAds={this.hideAds} />}/>
                     <Route path="/Other" render={() => <Other hideAds={this.hideAds} />}/>
                 </Switch>
             </div>

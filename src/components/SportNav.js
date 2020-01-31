@@ -9,7 +9,6 @@ import Badminton from './Badminton';
 import Bandy from './Bandy';
 import Basketball from './Basketball';
 import Boxing from './Boxing';
-import Wrestling from './Wrestling';
 import Archery from './Archery';
 import Bike from './Bike';
 import Airsport from './Airsport';

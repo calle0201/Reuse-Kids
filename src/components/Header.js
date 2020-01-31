@@ -26,7 +26,7 @@ class Header extends Component {
           ReUse 
           </div>
           <div className="Header-name_under">
-          Sport
+          Kids
           </div>
         </div>
         <div className="Header-middleBox">
