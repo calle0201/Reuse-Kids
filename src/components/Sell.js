@@ -115,7 +115,7 @@ class Sell extends Component {
         data.append('name', picturename);
         h.Accept = 'application/json'; //if you expect JSON response
 
-        fetch('https://reusesport.se/APIs/getid.php', {
+        fetch('https://reusesport.se/kidsAPI/getid.php', {
             method: 'POST',
             headers: h,
             body: (data)
@@ -163,7 +163,7 @@ class Sell extends Component {
        
 
 
-        fetch('https://reusesport.se/APIs/newadvertisment.php', {
+        fetch('https://reusesport.se/kidsAPI/newadvertisment.php', {
             method: 'POST',
             body: JSON.stringify(data)
         })
@@ -207,7 +207,7 @@ class Sell extends Component {
       imagedata.append('name', picturename);
       h.Accept = 'application/json'; //if you expect JSON response
 
-      fetch('https://reusesport.se/APIs/getid.php', {
+      fetch('https://reusesport.se/kidsAPI/getid.php', {
           method: 'POST',
           headers: h,
           body: (imagedata)

@@ -109,7 +109,7 @@ class Login extends Component {
 
         console.log(data);
 
-        fetch('https://reusesport.se/APIs/login.php', {
+        fetch('https://reusesport.se/kidsAPI/login.php' , {
             method: 'POST',
             body: JSON.stringify(data),
         })
