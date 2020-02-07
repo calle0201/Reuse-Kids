@@ -57,7 +57,7 @@ class Login extends Component {
             database: database,
         }
 
-        fetch('https://reusesport.se/APIs/userid.php', {
+        fetch('https://reusesport.se/kidsAPI/userid.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })

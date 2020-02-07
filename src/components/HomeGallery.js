@@ -59,7 +59,7 @@ class HomeGallery extends React.Component {
           };
 
 
-        fetch('https://reusesport.se/APIs/homepictures.php', obj)
+        fetch('https://reusesport.se/kidsAPI/homepictures.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();

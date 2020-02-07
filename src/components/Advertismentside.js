@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Advertismentside.css";
+
 
 class Advertismentside extends React.Component {
 

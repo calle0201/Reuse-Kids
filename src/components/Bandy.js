@@ -3,6 +3,7 @@ import Popup from './Popup';
 import createHistory from 'history/createBrowserHistory'
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
+import './Advertisment.css';
 
 
 const history = createHistory()

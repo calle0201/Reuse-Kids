@@ -83,7 +83,7 @@ class Alladvertisment extends React.Component {
 
 
         
-        fetch('https://reusesport.se/APIs/searchAd.php', {
+        fetch('https://reusesport.se/kidsAPI/searchAd.php', {
             method: 'POST',
             body: JSON.stringify(data)
         })
@@ -131,7 +131,7 @@ class Alladvertisment extends React.Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/alladvertisment.php', obj)
+        fetch('https://reusesport.se/kidsAPI/alladvertisment.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();

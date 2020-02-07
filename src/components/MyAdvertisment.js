@@ -61,7 +61,7 @@ class MyAdvertisment extends Component {
         
         console.log(obj);
     
-                fetch('https://reusesport.se/APIs/myAdvertisment.php', obj)
+                fetch('https://reusesport.se/kidsAPI/myAdvertisment.php', obj)
                 .then(res => {
                     if (res.ok) {
                       return res.json();

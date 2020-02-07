@@ -50,7 +50,7 @@ class Newsletter extends Component {
         }
    
      
-        fetch('https://reusesport.se/APIs/newsletter.php', {
+        fetch('https://reusesport.se/kidsAPI/newsletter.php', {
             method: 'POST',
             body: JSON.stringify(data)
         })

@@ -62,7 +62,7 @@ class Register extends React.Component {
             console.log(data);
 
 
-           fetch('https://reusesport.se/APIs/registrera.php', {
+           fetch('https://reusesport.se/kidsAPI/registrera.php', {
                 method: 'POST',
                 body: JSON.stringify(data),
             })

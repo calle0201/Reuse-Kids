@@ -62,7 +62,7 @@ class ValueCode extends React.Component {
        
         console.log(data);
 
-        fetch('https://reusesport.se/APIs/valuecode.php', {
+        fetch('https://reusesport.se/kidsAPI/valuecode.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })

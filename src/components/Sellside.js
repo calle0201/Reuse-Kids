@@ -95,7 +95,7 @@ class Sellside extends Component {
             }    
 
 
-           fetch('https://reusesport.se/APIs/registreraanvandare.php', {
+           fetch('https://reusesport.se/kidsAPI/registreraanvandare.php', {
                 method: 'POST',
                 body: JSON.stringify(data),
             })
@@ -125,7 +125,7 @@ class Sellside extends Component {
     
                 console.log(data);
     
-                fetch('https://reusesport.se/APIs/newsletter.php', {
+                fetch('https://reusesport.se/kidsAPI/newsletter.php', {
                     method: 'POST',
                     body: JSON.stringify(data),
                 })

@@ -60,7 +60,7 @@ class LoginCompounds extends Component {
             database: database,
         }
 
-        fetch('https://reusesport.se/APIs/compoundid.php', {
+        fetch('https://reusesport.se/kidsAPI/compoundid.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })
@@ -112,7 +112,7 @@ class LoginCompounds extends Component {
 
         console.log(data);
 
-        fetch('https://reusesport.se/APIs/compoundslogin.php', {
+        fetch('https://reusesport.se/kidsAPI/compoundslogin.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })

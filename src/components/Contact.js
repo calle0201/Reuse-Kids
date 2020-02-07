@@ -78,7 +78,7 @@ class Contact extends Component {
         database: database,
     }
 
-    fetch('https://reusesport.se/APIs/contact.php', {
+    fetch('https://reusesport.se/kidsAPI/contact.php', {
         method: 'POST',
         body: JSON.stringify(data)
     })

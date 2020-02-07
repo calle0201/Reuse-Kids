@@ -51,7 +51,7 @@ class RegisterCompounds extends React.Component {
 
             }    
 
-           fetch('https://reusesport.se/APIs/compoundsregister.php', {
+           fetch('https://reusesport.se/kidsAPI/compoundsregister.php', {
                 method: 'POST',
                 body: JSON.stringify(data),
             })

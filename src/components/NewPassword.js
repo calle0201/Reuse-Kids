@@ -66,7 +66,7 @@ class NewPassword extends Component {
 
         console.log(data);
 
-        fetch('https://reusesport.se/APIs/newpassword.php', {
+        fetch('https://reusesport.se/kidsAPI/newpassword.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })

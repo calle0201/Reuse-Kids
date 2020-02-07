@@ -75,7 +75,7 @@ class Search extends Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/searchAd.php', obj)
+        fetch('https://reusesport.se/kidsAPI/searchAd.php', obj)
         //.then(data => console.log(data)) 
         .then(res => {
             if (res.ok) {

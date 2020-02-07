@@ -6,6 +6,7 @@ import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
 
 
+
 const history = createHistory()
 ReactGA.initialize('UA-140699741-1');
 history.listen((location, action) => {
@@ -53,7 +54,7 @@ class Other extends Component {
             })
           };
 
-        fetch('https://reusesport.se/APIs/other.php', obj)
+        fetch('https://reusesport.se/kidsAPI/other.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();

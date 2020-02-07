@@ -51,7 +51,7 @@ class Badminton extends Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/badminton.php', obj)
+        fetch('https://reusesport.se/API/badminton.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();

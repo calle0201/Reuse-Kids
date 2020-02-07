@@ -42,7 +42,7 @@ class DeleteAdvertisment extends Component {
             database: database,
         }    
 
-        fetch('https://reusesport.se/APIs/deleteAdvertisment.php', {
+        fetch('https://reusesport.se/kidsAPI/deleteAdvertisment.php', {
             method: 'POST',
             body: JSON.stringify(data)
         })

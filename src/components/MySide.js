@@ -75,9 +75,9 @@ class MySide extends Component {
             <div className="MySide">
 
                 <div className="About-picture">
-                    <div className="About-pictureimg"><img src={Redsunset} alt="Tänk på miljön, sälj din begagnade barn produkter - ReUse Kids" /></div>
+                    <div className="About-pictureimg"><img src={Redsunset} alt="Tänk på miljön, sälj din begagnade sportutrustning - ReUse Sport" /></div>
                     <div className="Contact-titleBox">
-                    <div className="Contact-title">Hos oss kan du köpa och sälja begagnade barn produkter.</div>
+                    <div className="Contact-title">Hos oss kan du köpa och sälja begagnad sportutrustning.</div>
                     </div>
                 </div>        
                 <h1 className="MySide_welcome">Välkommen!</h1>

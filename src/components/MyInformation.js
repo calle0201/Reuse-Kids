@@ -32,7 +32,7 @@ class MyInformation extends Component {
         
   
     
-        fetch('https://reusesport.se/APIs/myInformation.php')
+        fetch('https://reusesport.se/kidsAPI/myInformation.php')
         .then(res => {
             if (res.ok) {
               return res.json();

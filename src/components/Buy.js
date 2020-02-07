@@ -60,7 +60,7 @@ class Buy extends React.Component {
         return (
             <div className="Buy">
                  <BrowserRouter>
-            <div>
+            <div className="style">
                 <SubNavigation />
                 <Switch>
                     <Route path="/Badminton" exact render={() => <Badminton hideAds={this.hideAds} />}/>

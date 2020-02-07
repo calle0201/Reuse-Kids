@@ -32,7 +32,7 @@ class Admin extends Component {
             })
           };
 
-        fetch('https://reusesport.se/APIs/getcontact.php', obj)
+        fetch('https://reusesport.se/kidsAPI/getcontact.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();

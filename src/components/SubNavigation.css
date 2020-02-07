@@ -1,17 +1,44 @@
+
+
 @media screen and (max-width: 600px) {
   .SubNavigation {
     display: flex;
     flex-wrap: wrap;
-    margin: 5px 10px;
    
+    width: 200%;
+    
+   
+ }
+ .Dropdown{
+   width: 100%;
  }
 
  .SubNavigation a {
     padding: 4px 4px;
     text-decoration: none;
 }
-    
-  
+
+.middle { /* för att göra att span är i mitten  */
+  width:50%;
+  position: relative;
+ 
+  text-align: center;
+  background: #e9d7cd;
+  border: 1px solid black;
+}
+.mobile { /* så att valen för olika barn produkter hamnar i mitten och blir stylade */
+  background: #e9d7cd;
+  border: 1px solid black;
+  color: black;
+
+  display: block;
+  width:50%;
+}
+.mobile a { /* samma som */
+  text-align: center;
+  display: block;
+  border: 1px solid black
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -23,7 +50,7 @@
   }
 
   .Nav_link a {
-      padding: 10px;
+      padding: 0px;
   }
     
 
@@ -32,7 +59,36 @@
     text-decoration: none;
   }
    
-
+  .SubNavigation .Dropdown  {
+    position: relative;
+    display: inline-block;
+    padding: 12px 32px;
+    background: #e9d7cd;
+    margin: -30px 0 10px ;
+  }
+  .SubNavigation .Dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #e9d7cd9f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+    z-index: 1;
+  }
+  .SubNavigation .Dropdown-content a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+ .SubNavigation .Dropdown:hover .Dropdown-content {
+    display: block;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  .SubNavigation .Dropdown .Dropdown-content a:hover {
+    background: #c7b3a99f ;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -41,6 +97,7 @@
     padding: 10px;
     text-decoration: none;
   }
+  
 }
 
 @media screen and (min-width: 992px) {

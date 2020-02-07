@@ -57,7 +57,7 @@ class AdminLogin extends Component {
             database: database,
         }
 
-        fetch('https://reusesport.se/APIs/userid.php', {
+        fetch('https://reusesport.se/kidAPI/userid.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })
@@ -109,7 +109,7 @@ class AdminLogin extends Component {
 
         console.log(data);
 
-        fetch('https://reusesport.se/APIs/login.php', {
+        fetch('https://reusesport.se/kidsAPI/login.php', {
             method: 'POST',
             body: JSON.stringify(data),
         })
