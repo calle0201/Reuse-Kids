@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Product from './Product';
 //import RouteWithSubRoutes from './RouteWithSubRoutes';
-import Badminton from './Badminton'; 
-import Bandy from './Bandy'; 
+import Furniture from './Furniture'; 
+import Toys from './Toys'; 
 import Cars from './Cars';
-import Basketball from './Basketball'; 
+import Clothes from './Clothes'; 
 import Boxing from './Boxing'; 
 import Other from './Other'; 
 import Footer from './Footer'; 
@@ -56,16 +56,15 @@ class Buy extends React.Component {
     
          
     render() {
-     
         return (
             <div className="Buy">
                  <BrowserRouter>
             <div className="style">
                 <SubNavigation />
                 <Switch>
-                    <Route path="/Badminton" exact render={() => <Badminton hideAds={this.hideAds} />}/>
-                    <Route path="/Bandy"  render={() => <Bandy hideAds={this.hideAds} />}/>
-                    <Route path="/Basketball" render={() => <Basketball hideAds={this.hideAds} />}/>
+                    <Route path="/Furniture" exact render={() => <Furniture hideAds={this.hideAds} />}/>
+                    <Route path="/Toys"  render={() => <Toys hideAds={this.hideAds} />}/>
+                    <Route path="/Clothes" render={() => <Clothes hideAds={this.hideAds} />}/>
                     <Route path="/Boxing"  render={() => <Boxing hideAds={this.hideAds} />}/>
                     <Route path="/Cars"  render={() => <Cars hideAds={this.hideAds} />}/>
                     <Route path="/Other" render={() => <Other hideAds={this.hideAds} />}/>

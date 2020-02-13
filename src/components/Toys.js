@@ -14,7 +14,7 @@ history.listen((location, action) => {
 });
 
 
-class Bandy extends Component {
+class Toys extends Component {
         
     constructor(props) {
         super(props);
@@ -54,7 +54,7 @@ class Bandy extends Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/bandy.php', obj)
+        fetch('https://reusesport.se/kidsAPI/toys.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();
@@ -110,4 +110,4 @@ class Bandy extends Component {
   }
 }
 
-export default Bandy;
+export default Toys;

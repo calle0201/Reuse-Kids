@@ -21,7 +21,7 @@ class Sell extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            sport: "",
+            subject: "",
             title: "",
             text: "",
             price: "",
@@ -58,7 +58,7 @@ class Sell extends Component {
     update() {
 
         this.setState({
-            sport: this.refs.sport.value,
+            subject: this.refs.subject.value,
             title: this.refs.title.value,
             text: this.refs.text.value,
             price: this.refs.price.value,
@@ -134,15 +134,15 @@ class Sell extends Component {
 
       
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+        let user = 'reusesport_se';
+        let password = 'JHU37XhdgwsGGT7654hdgsd';
+        let database = 'reusesport_se';
          
 
         const image = this.refs.picture.value.split('C:\\fakepath\\')[1];
         const data = {
-            sport: this.refs.sport.value,
+            subject: this.refs.subject.value,
             title: this.refs.title.value,
             text: this.refs.text.value,
             price: this.refs.price.value,
@@ -162,7 +162,8 @@ class Sell extends Component {
         }
        
 
-
+    console.log(data);
+    
         fetch('https://reusesport.se/kidsAPI/newadvertisment.php', {
             method: 'POST',
             body: JSON.stringify(data)
@@ -214,6 +215,7 @@ class Sell extends Component {
       })
       .then(resp => resp.text()) 
      // .then(imagedata => console.log(imagedata))
+      
       
 
     }
@@ -304,38 +306,13 @@ class Sell extends Component {
                     
                         <form className="Sell-form" onSubmit={this.handleSubmit}>
                             <div className="Sell-innerBox">
-                            <div className="Sell-sport Sell-input_title ">Välj sport</div>
-                            <select className="Sell- Sell-input" id="sport" name="sport" ref="sport"  onChange={this.handleChange} onChange={this.handleSport} value={this.state.sport} required>
-                                <option value="Badminton">Badminton</option>
-                                <option value="Bandy">Bandy</option>
-                                <option value="Basket">Basket</option>
-                                <option value="Boxning">Boxning</option>
-                                <option value="Brottning">Brottning</option>
-                                <option value="Bågskytte">Bågskytte</option>
-                                <option value="Cykelsport">Cykelsport</option>
-                                <option value="Flygsport">Flygsport</option>
-                                <option value="Fotboll">Fotboll</option>
-                                <option value="Friidrott">Friidrott</option>
-                                <option value="Dykning">Dykning</option>
-                                <option value="Fäktning">Fäktning</option>
-                                <option value="Golf">Golf</option>
-                                <option value="Gymnastik">Gymnastik</option>
-                                <option value="Handboll">Handboll</option>
-                                <option value="Ishockey">Ishockey</option>
-                                <option value="Innebandy">Innebandy</option>
-                                <option value="Lacrosse">Lacrosse</option>
-                                <option value="Kampsport">Kampsport</option>
-                                <option value="Kanot">Kanot</option>
-                                <option value="Klättring">Klättring</option>
-                                <option value="Konståkning">Konståkning</option>
-                                <option value="Motorsport">Motorsport</option>
-                                <option value="Tennis">Tennis</option>
-                                <option value="Ridsport">Ridsport</option>
-                                <option value="Rugby">Rugby</option>
-                                <option value="Segling">Segling</option>
-                                <option value="Skidsport">Skidsport</option>
-                                <option value="Vattenskidor">Vattenskidor</option>
-                                <option value="Vindsurfing">Vindsurfing</option>
+                            <div className="Sell-sport Sell-input_title ">Välj barn produkt</div>
+                            <select className="Sell- Sell-input" id="sport" name="sport" ref="subject"  onChange={this.handleChange} onChange={this.handleSport} value={this.state.sport} required>
+                                <option value="Furniture">Möbler</option>
+                                <option value="Toys">Leksaker</option>
+                                <option value="Clothes">Kläder</option>
+                                <option value="Boxning">Säkerhetsanordningar</option>
+                                <option value="Cars">Cyklar</option>
                                 <option value="Övriga">Övriga</option>
                             </select>    
                             </div>
@@ -422,7 +399,7 @@ class Sell extends Component {
                             </div>
                             
                             <Price price={this.state.price} email={this.state.email}/>  
-                            <Payson price={this.state.price} />
+                          
                             <div className="Sell-accept">
                                 <div className="Sell-accept_box">
                                     <input className="acceptData-checkbox" type="checkbox" name="approved" onChange={this.acceptDataApproved.bind(this)} checked={this.state.acceptData} /> 

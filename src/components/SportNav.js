@@ -5,9 +5,9 @@ import Canoe from './Canoe';
 import Ski from './Ski';
 import Figureskating from './Figureskating';
 import Icehockey from './Icehockey';
-import Badminton from './Badminton';
-import Bandy from './Bandy';
-import Basketball from './Basketball';
+import Furniture from './Furniture';
+import Toys from './Toys';
+import Clothes from './Clothes';
 import Boxing from './Boxing';
 import Archery from './Archery';
 import Bike from './Bike';
@@ -110,13 +110,13 @@ function Buy({ routes, ...props}) {
     <div className="SubNav" >
       <ul className={props.value ? 'close' : 'open'}>
         <li className="subNav_Box">
-          <Link to="/buy/badminton">Möbler</Link>
+          <Link to="/buy/Furniture">Möbler</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/bandy">Leksaker</Link>
+          <Link to="/buy/Toys">Leksaker</Link>
         </li>
         <li className="subNav_Box">
-          <Link to="/buy/basketball">Kläder</Link>
+          <Link to="/buy/Clothes">Kläder</Link>
         </li>
         <li className="subNav_Box">
           <Link to="/buy/boxing">Cyklar</Link>
@@ -152,16 +152,16 @@ const routes = [
     component: Buy,
     routes: [
       {
-        path: "/buy/badminton",
-        component: Badminton
+        path: "/buy/Furniture",
+        component: Furniture
       },
       {
-        path: "/buy/bandy",
-        component: Bandy
+        path: "/buy/Toys",
+        component: Toys
       },
       {
-        path: "/buy/basketball",
-        component: Basketball
+        path: "/buy/Clothes",
+        component: Clothes
       },
       {
         path: "/buy/boxing",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { NavLink } from "react-router-dom";
 import "./SubNavigation.css";
 
@@ -8,6 +8,7 @@ class SubNavigation extends React.Component {
         super(props);
         this.state = {
             hideAdgallery: false,
+           
         };
 
         this.chooseSport = this.chooseSport.bind(this);
@@ -22,27 +23,25 @@ class SubNavigation extends React.Component {
     }
 
     render() {
-
-    return (
-        <div className="SubNavigation">
-            <div className="Dropdown " >
+        return (
+            <div className="SubNavigation">
+                <div className="Dropdown " >
 
                   
-                    <div class="middle">
-                        <span >Barn produkter</span>
+                    <div className="middle">
+                        <span onClick={this.handleClick} >Barn produkter</span>
                     </div>
-               
-                <div class="Dropdown-content mobile">
-                    <NavLink className="Nav_link " to="/Badminton" >Möbler</NavLink>
-                    <NavLink to="/Bandy">Leksaker</NavLink>
-                    <NavLink to="/Basketball">Kläder</NavLink>
-                    <NavLink to="/Cars">Cyklar</NavLink>
-                    <NavLink to="/Boxing">Säkerhetsanordningar</NavLink>
-                    <NavLink to="/Other">Övriga</NavLink>
-                </div>
                     
-            </div>
-         </div>
+                    <div className='Dropdown-content mobile' >
+                        <NavLink className="Nav_link " to="/Furniture" >Möbler</NavLink>
+                        <NavLink to="/Toys">Leksaker</NavLink>
+                        <NavLink to="/Clothes">Kläder</NavLink>
+                        <NavLink to="/Cars">Cyklar</NavLink>
+                        <NavLink to="/Boxing">Säkerhetsanordningar</NavLink>
+                        <NavLink to="/Other">Övriga</NavLink>
+                    </div>
+                </div>
+             </div>
     );    
     
     }

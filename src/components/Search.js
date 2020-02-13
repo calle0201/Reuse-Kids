@@ -133,36 +133,11 @@ class Search extends Component {
                            
                     <div className="">Välj sport</div>
                         <select className="" id="sport" name="sport" ref="sport"  onChange={this.handleChange} onChange={this.searchSport} value={this.state.sport} required>
-                            <option value="Badminton">Badminton</option>
-                            <option value="Bandy">Bandy</option>
-                            <option value="Basket">Basket</option>
-                            <option value="Boxning">Boxning</option>
-                            <option value="Brottning">Brottning</option>
-                            <option value="Bågskytte">Bågskytte</option>
-                            <option value="Cykelsport">Cykelsport</option>
-                            <option value="Flygsport">Flygsport</option>
-                            <option value="Fotboll">Fotboll</option>
-                            <option value="Friidrott">Friidrott</option>
-                            <option value="Dykning">Dykning</option>
-                            <option value="Fäktning">Fäktning</option>
-                            <option value="Golf">Golf</option>
-                            <option value="Gymnastik">Gymnastik</option>
-                            <option value="Handboll">Handboll</option>
-                            <option value="Ishockey">Ishockey</option>
-                            <option value="Innebandy">Innebandy</option>
-                            <option value="Lacrosse">Lacrosse</option>
-                            <option value="Kampsport">Kampsport</option>
-                            <option value="Kanot">Kanot</option>
-                            <option value="Klättring">Klättring</option>
-                            <option value="Konståkning">Konståkning</option>
-                            <option value="Motorsport">Motorsport</option>
-                            <option value="Tennis">Tennis</option>
-                            <option value="Ridsport">Ridsport</option>
-                            <option value="Rugby">Rugby</option>
-                            <option value="Segling">Segling</option>
-                            <option value="Skidsport">Skidsport</option>
-                            <option value="Vattenskidor">Vattenskidor</option>
-                            <option value="Vindsurfing">Vindsurfing</option>
+                            <option value="Furniture">Möbler</option>
+                            <option value="Toys">Leksaker</option>
+                            <option value="Cars">Cyklar </option>
+                            <option value="Boxning">Säkerhetsanordningar</option>
+                            <option value="Clothes">Kläder</option>
                             <option value="Övriga">Övriga</option>
                         </select>    
                   

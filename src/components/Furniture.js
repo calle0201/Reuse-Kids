@@ -3,8 +3,6 @@ import Popup from './Popup';
 import createHistory from 'history/createBrowserHistory'
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
-import './Advertisment.css';
-
 
 const history = createHistory()
 ReactGA.initialize('UA-140699741-1');
@@ -13,14 +11,14 @@ history.listen((location, action) => {
     console.log(location.pathname)
 });
 
-class Basketball extends Component {
-       
+class Furniture extends Component {
+        
     constructor(props) {
         super(props);
         this.state = {
           datasport: null,
           clicked: null,
-          ads:[]
+          ads: []
         };
     }
     
@@ -28,7 +26,7 @@ class Basketball extends Component {
         this.setState({
             clicked: id
         });
-    } 
+    }
     
            
     componentDidMount() {
@@ -53,7 +51,7 @@ class Basketball extends Component {
 
           console.log(obj);
 
-        fetch('https://reusesport.se/APIs/basketball.php', obj)
+        fetch('https://reusesport.se/kidsAPI/furniture.php', obj)
         .then(res => {
             if (res.ok) {
               return res.json();
@@ -67,47 +65,68 @@ class Basketball extends Component {
               ads: json
             });
           });
-
             
     }
+         
+    render() {
+      return (
+        <div>
+            <Helmet>
+                <title>Begagnade barn möbler </title>
+                <meta name="description" content="Webbsida för begagnade badmintonrack, badmintonbollar och badmintonväska." />
+            </Helmet>
+            <h1 className="Advertisment_title">Barn möbler</h1>
+            <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
 
-        
-        render() {
-
-              
-            return (
-                <div>
-                     <Helmet>
-                        <title>Begagnade barn kläder </title>
-                        <meta name="description" content="Webbsida för begagnade basketstativ, basketkorgar, basketbollar, basketskor, basketkläder, basketväskor." />
-                    </Helmet>
-                <h1 className="Advertisment_title">Barn kläder</h1>
-                <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
-
-                <div className="Advertisment">
-                        {
-                            this.state.ads ?
-                            this.state.ads.map((item) =>
-                            <div className="Advertisment-outsideBox">
-                            <div className="AdvertismentBox"  onClick={this.togglePopup.bind(this, item.id)}>
-                                {this.state.clicked=== item.id ? <Popup id={item.id} title={item.title} picture={item.picture} text={item.text} size={item.size} price={item.price} phone={item.phone} name={item.name} email={item.email} date={item.date} municipality={item.municipality} county={item.county}/> : null}
-                                <h3 className="AdvertismentBox_title">{item.title}</h3>
+            <div className="Advertisment">
+           
+                    {
+                         this.state.ads ?
+                         this.state.ads.map((item) =>
+                         <div className="Advertisment-outsideBox">
+                         <div className="AdvertismentBox"  onClick={this.togglePopup.bind(this, item.id)}>
+                             {this.state.clicked=== item.id ? <Popup id={item.id} title={item.title} picture={item.picture} text={item.text} size={item.size} price={item.price} phone={item.phone}  name={item.name} email={item.email} date={item.date} municipality={item.municipality} county={item.county}/> : null}
+                             <h3 className="AdvertismentBox_title">{item.title}</h3>
                         <div className="AdvertismentBox_imageBox">
                             <img className="AdvertismentBox_image" src={item.picture} alt={item.title}/>
                         </div>
                         <div className="AdvertismentBox_price">{item.price} kr</div>
                         <div className="AdvertismentBox_date">{item.date}</div>
                         <div className="AdvertismentBox_county">{item.county}</div>
-                            </div>
-                            </div>
-                        )
-                            :
-                            <h3>Vänta - datat hämtas</h3>
-                        }
-                </div>
-            </div>
+                         </div>
+                         </div>
+                    )
+                        :
+                        <h3>Vänta - datat hämtas</h3>
+                    }
+            </div>    
+        </div>  
     );
   }
 }
 
-export default Basketball;
+export default Furniture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;

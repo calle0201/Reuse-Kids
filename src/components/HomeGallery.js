@@ -42,10 +42,10 @@ class HomeGallery extends React.Component {
 
     componentDidMount() {
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql'; 
+        let user = 'reusesport_se';
+        let password = 'JHU37XhdgwsGGT7654hdgsd';
+        let database = 'reusesport_se'
 
         
         var obj = {  

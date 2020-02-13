@@ -44,10 +44,10 @@ class Login extends Component {
 
     findUserid() {
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
         const data = {
             loginEmail: this.refs.loginEmail.value,
@@ -57,7 +57,7 @@ class Login extends Component {
             database: database,
         }
 
-        fetch('https://reusesport.se/kidsAPI/userid.php', {
+        fetch('https://reusesport.se/kidsAPI/userid.php', {mode: "no-cors"}, {
             method: 'POST',
             body: JSON.stringify(data),
         })
@@ -93,10 +93,10 @@ class Login extends Component {
     loginSubmit(event) {
         event.preventDefault();
         
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
         const data = {
             loginEmail: this.refs.loginEmail.value,
