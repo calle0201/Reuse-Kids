@@ -123,7 +123,8 @@ hr {
     display: flex;
     flex-direction: row;
     width: 66%;
-    justify-content: space-around;
+    justify-content: space-around; 
+    margin-right: 275px;
     }
     
     .Footer_first-left {
