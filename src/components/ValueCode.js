@@ -46,10 +46,10 @@ class ValueCode extends React.Component {
         event.preventDefault();
         this.setState({ code: this.refs.code.value});
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+let user = 'reusesport_sekids';
+let password = 'J87jket37snjt89yte5lk2';
+let database = 'reusesport_sekids';
 
         const data = {   
             code: this.refs.code.value,

@@ -62,10 +62,10 @@ class Alladvertisment extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+let user = 'reusesport_sekids';
+let password = 'J87jket37snjt89yte5lk2';
+let database = 'reusesport_sekids';
 
         
 
@@ -113,10 +113,10 @@ class Alladvertisment extends React.Component {
 
 
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        let host = 'reusesport.se.mysql';
+let user = 'reusesport_sekids';
+let password = 'J87jket37snjt89yte5lk2';
+let database = 'reusesport_sekids';
 
         
         var obj = {  
