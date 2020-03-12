@@ -44,7 +44,7 @@ class Contact extends React.Component {
       contactEmail: '',
       contactMessage: ''
     });
-
+  }
     componentDidMount() {
 
         fetch('http://localhost/reusesport/src/api/mailer.php/', {
@@ -74,8 +74,10 @@ class Contact extends React.Component {
                 });
                 console.log(this.state.contactEmail + this.state.contactMessage + 'fail');
             }.bind(this)
-        })
-   
+          }
+        )
+      }
+    
 
 
     /*ajax({

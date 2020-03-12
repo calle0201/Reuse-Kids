@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 600px) {
+.content {
+    text-align: center;
+}
+
+.head {
+    
+}
+.body  {
+
+}
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        text-align: center;
+
+    }
+    
+    .head {
+        margin-top: 45px;
+        font-size: 20px;
+       
+      
+    }
+    .head h1 {
+        font-size: 30px;
+    }
+    .head p {
+        margin-top: -20px;
+    }
+
+    .body  {
+        font-size: 18px;
+        margin-top: 50px ; 
+        max-width: 800px;
+        margin: auto;
+    }
+    .body h3 {
+        font-size: 25px;
+        text-align: left;
+       margin: auto 0 auto auto;
+    }
+   
+   
+    
+    .body p {
+        
+        margin: auto 0 auto 0;
+        text-align: left;
+    }
+    .grid {
+        
+        display: grid;
+        grid-template-columns: auto auto;
+       gap: 20px;
+        margin-bottom: 40px;
+    }
+}

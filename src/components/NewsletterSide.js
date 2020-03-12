@@ -56,7 +56,7 @@ class NewsletterSide extends React.Component {
         }
    
      
-        fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+        fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
             method: 'POST',
             body: JSON.stringify(data)
         })

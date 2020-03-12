@@ -8,10 +8,10 @@ import Footer from './Footer';
 //import Lacrosse from './../images/lacrosse2.jpg';
 //import Konstakning from './../images/skridskor2.jpg';
 //import Skidor from './../images/skidor2.jpg';
-import Ridning from './../images/begagnad_ridutrustning_ridstovlar_ridhjalm-reusesport.jpg';
-import Lacrosse from './../images/begagnad_lacrosseutrustning_lacrossehjalm_lacrossestick-reusesport.jpg';
-import Konstakning from './../images/begagnad_konstakningsutrustning_konstakningsskridskor-reusesport.jpg';
-import Skidor from './../images/begagnade_skidor-reusesport.jpg';
+import Böcker from '../images/Begagande_böcker-ReUse_Kids.JPG';
+import barnKläder from '../images/Begagnade_barnkläder-ReUse_Kids.JPG';
+import Leksaker from '../images/Begagnade_leksaker_schleich-ReUse_Kids.JPG';
+import Pussel from '../images/Begagnade_pussel-ReUse_Kids.JPG'
 import "./Home.css";
 import createHistory from 'history/createBrowserHistory'
 import ReactGA from 'react-ga';
@@ -83,10 +83,10 @@ class Home extends React.Component {
             <div className="Home">
                 <div className="Home-picture">
                     <div className="Home-picture_images">
-                        <div className="Home-pictureimg Image_skiing"><img src={Skidor} alt="Begagnad skidutrustning, skidor - ReUse Kids" /></div>
-                        <div className="Home-pictureimg Image_riding"><img src={Ridning} alt="Begagnad ridutrustning, ridstövlar, ridhjälm - ReUse Kids" /></div>
-                        <div className="Home-pictureimg Image_figureskating"><img src={Konstakning} alt="Begagnad konståkningsutrustning, konståkningsskridskor - ReUse Kids" /></div>
-                        <div className="Home-pictureimg Image_lacrosse"><img src={Lacrosse} alt="Begagnad Lacrosseutrustning, lacrossestick, lacrossehjälm - ReUse Kids" /></div>
+                        <div className="Home-pictureimg Image_skiing"><img src={Böcker} alt="Begagnad skidutrustning, skidor - ReUse Kids" /></div>
+                        <div className="Home-pictureimg Image_riding"><img src={barnKläder} alt="Begagnad ridutrustning, ridstövlar, ridhjälm - ReUse Kids" /></div>
+                        <div className="Home-pictureimg Image_figureskating"><img src={Leksaker} alt="Begagnad konståkningsutrustning, konståkningsskridskor - ReUse Kids" /></div>
+                        <div className="Home-pictureimg Image_lacrosse"><img src={Pussel} alt="Begagnad Lacrosseutrustning, lacrossestick, lacrossehjälm - ReUse Kids" /></div>
                     </div>
     
                 </div>

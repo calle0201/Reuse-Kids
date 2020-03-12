@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Popup from './Popup';
 import Footer from './Footer';
 //import Redsunset from './../images/redsunset.jpg';
 import Redsunset from './../images/begagnade_sportartiklar-reusesport.jpg';

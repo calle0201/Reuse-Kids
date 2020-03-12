@@ -72,7 +72,7 @@ class Buy extends React.Component {
             </div>
           </BrowserRouter>
 
-
+            
            <Alladvertisment hideAds={this.state.hideAds}/>
            <Footer />
           </div>

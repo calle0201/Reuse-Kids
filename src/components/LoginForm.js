@@ -93,7 +93,7 @@ class LoginForm extends React.Component {
     
                 console.log(data);
     
-                fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+                fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
                     method: 'POST',
                     body: JSON.stringify(data),
                 })

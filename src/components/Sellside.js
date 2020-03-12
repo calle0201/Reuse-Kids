@@ -24,7 +24,7 @@ class Sellside extends Component {
     constructor(props) {
         super(props);
         this.state = {
-       
+            
             email: "",
             registerPassword: "",
             approved: "",
@@ -125,7 +125,7 @@ class Sellside extends Component {
     
                 console.log(data);
     
-                fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+                fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
                     method: 'POST',
                     body: JSON.stringify(data),
                 })
@@ -205,7 +205,7 @@ class Sellside extends Component {
         data.append('name', picturename);
         h.Accept = 'application/json'; //if you expect JSON response
 
-        fetch('https://reusesport.se/kidsAPI/getid.php', {
+        fetch('https://reusesport.se/kidsAPI/getid.php', {mode: "no-cors"}, {
             method: 'POST',
             headers: h,
             body: (data)
@@ -296,7 +296,7 @@ class Sellside extends Component {
       imagedata.append('name', picturename);
       h.Accept = 'application/json'; //if you expect JSON response
 
-      fetch('https://reusesport.se/kidsAPI/getid.php', {
+      fetch('https://reusesport.se/kidsAPI/getid.php', {mode: "no-cors"}, {
           method: 'POST',
           headers: h,
           body: (imagedata)
@@ -410,7 +410,7 @@ class Sellside extends Component {
    
 
     handleChange(event) {
-        console.log('handleChange');
+        
         
     }
 
@@ -457,12 +457,12 @@ class Sellside extends Component {
                             <div className="Sell-innerBox">
                             <div className="Sell-sport Sell-input_title ">Välj sport</div>
                             <select className="Sell- Sell-input" id="sport" name="sport" ref="sport"  onChange={this.handleChange} onChange={this.handleSport} value={this.state.sport} required>
-                                <option value="Furniture">Möbler</option>
-                                <option value="Toys">Leksaker</option>
-                                <option value="Clothes">Kläder</option>
+                            <option value="Möbler">Möbler</option>
+                                <option value="Leksaker">Leksaker</option>
+                                <option value="Kläder">Kläder</option>
+                                <option value="Skyddsutrustning">Säkerhetsanordningar</option>
                                 <option value="Cars">Cyklar</option>
-                                <option value="Boxing">Säkerhetsanordningar</option>
-                                <option value="Övriga">Övriga</option>
+                                <option value="Övrigt">Övriga</option>
                             </select>    
                             </div>
 
@@ -485,13 +485,9 @@ class Sellside extends Component {
                             <div className="Sell-innerBox">
                                 <div className="Sell-sport Sell-input_title ">Typ av vara</div>
                                 <select className="Sell- Sell-input" id="sort" name="sort" ref="sort"  onChange={this.handleChange} onChange={this.handleSort} value={this.state.sort} required>
-                                    <option value="Accessories">Accessoarer</option>
-                                    <option value="clothes">Kläder</option>
+                                    <option value="Kläder">Kläder</option>
                                     <option value="Shoes">Skor</option>
-                                    <option value="Protection">Skydd</option>
-                                    <option value="Equipment">Utrustning</option>
-                                    <option value="Bag">Väskor</option>
-                                    <option value="Övriga">Övrigt</option>
+                                    <option value="Övrigt">Övrigt</option>
                                 </select>    
                             </div>
 

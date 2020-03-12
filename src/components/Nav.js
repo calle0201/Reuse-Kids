@@ -20,7 +20,7 @@ import Newpassword from './NewPassword';
 import Terms from './Terms';
 import MySide from './MySide';
 import Sellside from './Sellside'; 
-
+import Faq from './Faq';
 import Admin from './Admin';
 import AdminLogin from './AdminLogin';
 import Recipe from './Recipe';
@@ -68,7 +68,7 @@ class Nav extends Component {
 //}
 
     handleClick() {
-        console.log('klick');
+        
         this.setState({ active: !this.state.active});
     }
   
@@ -100,6 +100,7 @@ class Nav extends Component {
                             <Route path="/contact" component={Contact} />
                             <Route path="/loginRegister" component={LoginRegister} />
                             <Route path="/goodtoknow" component={Goodtoknow} />
+                            <Route path="/Faq" component={Faq} />
                             <Route path="/terms" component={Terms} />
                             <Route path="/thanksad" component={ThanksAd} />
                             <Route path="/thanksregister" component={Thanksregister} />
