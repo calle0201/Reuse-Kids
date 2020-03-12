@@ -7,16 +7,8 @@ import Fotboll from './../images/begagnad_barn produkter_fotbollsskor-Reuse_spor
 import Ishall from './../images/ishall.jpg';
 import Fotboll from './../images/fotboll.jpg';
 
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class NewsletterSide extends React.Component {
@@ -56,7 +48,7 @@ class NewsletterSide extends React.Component {
         }
    
      
-        fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+        fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
             method: 'POST',
             body: JSON.stringify(data)
         })

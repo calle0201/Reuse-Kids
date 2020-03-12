@@ -5,16 +5,8 @@ import Konstakning from './../images/begagnad_konstakningsutrustning_konstakning
 import Skidor from './../images/begagnade_skidor-reusesport.jpg';
 import Recipe from './Recipe';
 import './MailRecipe.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class MailInjury extends Component {
@@ -61,7 +53,7 @@ class MailInjury extends Component {
             }
    
      
-            fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+            fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
                 method: 'POST',
                 body: JSON.stringify(data)
             })

@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 //Används ej
 // Contact component render contact form
@@ -44,7 +36,7 @@ class Contact extends React.Component {
       contactEmail: '',
       contactMessage: ''
     });
-
+  }
     componentDidMount() {
 
         fetch('http://localhost/reusesport/src/api/mailer.php/', {
@@ -74,8 +66,10 @@ class Contact extends React.Component {
                 });
                 console.log(this.state.contactEmail + this.state.contactMessage + 'fail');
             }.bind(this)
-        })
-   
+          }
+        )
+      }
+    
 
 
     /*ajax({

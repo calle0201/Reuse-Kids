@@ -28,8 +28,7 @@ class Price extends React.Component {
         const email = this.props.email;
         //this.setState({hasPrice: true});
 
-        console.log(price);
-        console.log(email);
+        
         //console.log(procent);
 
         var cost = 0;

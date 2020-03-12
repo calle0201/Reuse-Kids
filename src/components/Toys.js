@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import Popup from './Popup';
-import createHistory from 'history/createBrowserHistory'
+
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
 import './Advertisment.css';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
+
 
 
 class Toys extends Component {

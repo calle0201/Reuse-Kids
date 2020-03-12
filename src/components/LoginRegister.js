@@ -8,16 +8,8 @@ import Footer from './Footer';
 import Redsunset from './../images/salj_din_begagnade_sportutrustning-reusesport.jpg';
 
 import './LoginRegister.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 class LoginRegister extends Component {
 

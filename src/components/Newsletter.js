@@ -2,16 +2,8 @@ import React, { Component } from 'react';
 import Redsunset from './../images/redsunset.jpg';
 
 import './Newsletter.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class Newsletter extends Component {
@@ -33,11 +25,11 @@ class Newsletter extends Component {
        
         event.preventDefault();
 
-        let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-
-        let user = process.env.REACT_APP_REUSESPORT_DB_USER 
-        let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
-        let database = process.env.REACT_APP_REUSESPORT_DB_NAME
+        
+        let host = 'reusesport.se.mysql';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
 
 
@@ -49,8 +41,10 @@ class Newsletter extends Component {
             database: database
         }
    
+        console.log(data);
+        
      
-        fetch('https://reusesport.se/kidsAPI/newsletter.php', {
+        fetch('https://reusesport.se/kidsAPI/newsletter.php', {mode: "no-cors"}, {
             method: 'POST',
             body: JSON.stringify(data)
         })

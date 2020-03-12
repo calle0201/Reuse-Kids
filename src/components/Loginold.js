@@ -4,17 +4,12 @@ import { Route, Redirect } from 'react-router-dom';
 import Ocean from './../images/ocean.jpg';
 import './Login.css';
 
-import createHistory from 'history/createBrowserHistory'
+
 import ReactGA from 'react-ga';
 
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
+
 
 class Login extends Component {
     constructor(props) {

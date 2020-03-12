@@ -14,7 +14,7 @@ class Navigation extends Component {
     }
 
     handleClick() {
-        console.log('klick');
+       
         this.setState({ active: !this.state.active});
     }
 
@@ -27,6 +27,7 @@ class Navigation extends Component {
                 <NavLink to="/about" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Om ReUse Kids</NavLink>
                 <NavLink to="/contact" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Kontakt</NavLink>
                 <NavLink to="/goodtoknow" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Bra att veta</NavLink>
+                <NavLink to="/Faq" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>FAQ</NavLink>
                 <NavLink to="/mySide" exact activeStyle={{ fontWeight: 'bold'}}>MySide</NavLink>
                 <NavLink to="/loginRegister" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Logga in</NavLink>
             </div>

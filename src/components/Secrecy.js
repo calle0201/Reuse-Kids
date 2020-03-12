@@ -5,16 +5,8 @@ import Lacrosse from './../images/begagnad_lacrosseutrustning_lacrossehjalm_lacr
 import Konstakning from './../images/begagnad_konstakningsutrustning_konstakningsskridskor-reusesport.jpg';
 import Skidor from './../images/begagnade_skidor-reusesport.jpg';
 import Footer from './Footer';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class Secrecy extends Component {
