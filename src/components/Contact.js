@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
-import './About.css';
+//import './About.css';
 import './Contact.css';
 
 
@@ -99,7 +99,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-        <div className="About-box">
+        <div className="">
           <div className="About-picture">
             <div className="About-pictureimg"><img src={Redsunset} alt="Tänk på miljön, sälj din begagnade barn produkter - ReUse Kids" /></div>
             <div className="Contact-titleBox">
