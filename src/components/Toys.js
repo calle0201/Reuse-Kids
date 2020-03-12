@@ -21,7 +21,10 @@ class Toys extends Component {
         this.state = {
           datasport: null,
           clicked: null,
-          ads: []
+          ads: [],
+          sport: '',
+            county: '',
+            hideAds:''
         };
     }
     
