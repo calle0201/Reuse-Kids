@@ -61,11 +61,12 @@ class Buy extends React.Component {
                     <Route path="/Cars"  render={() => <Cars hideAds={this.hideAds} />}/>
                     <Route path="/Other" render={() => <Other hideAds={this.hideAds} />}/>
                 </Switch>
+                <Alladvertisment  hideAds={this.state.hideAds}/>
             </div>
           </BrowserRouter>
 
             
-           <Alladvertisment  hideAds={this.state.hideAds}/>
+         
            <Footer />
           </div>
  

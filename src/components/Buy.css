@@ -8,6 +8,7 @@
         width:100%
     }
     .style {
+        height: 100%;
         width:100%
     }
     
@@ -69,7 +70,9 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
-        
+        .style {
+            height: 400%;
+        }
         .Buy-Product {
             border: 1px solid black;
             margin: 10px 10px;
