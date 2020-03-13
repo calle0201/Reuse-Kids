@@ -7,7 +7,45 @@ import './Footer.css';
 
 class Footer extends Component {
 
+constructor(props) {
+  super(props);
+   this.contact = this.contact.bind(this);
+   this.faq = this.faq.bind(this);
+   this.compounds = this.compounds.bind(this);
+   this.recipe = this.recipe.bind(this);
+   this.interestedthings = this.interestedthings.bind(this);
+   this.takecareofyourthings = this.takecareofyourthings.bind(this);
+}
 
+faq() {
+  let path = 'Faq';
+  this.props.history.push(path);
+}
+
+contact() {
+  let path = 'contact';
+  this.props.history.push(path);
+}
+
+compounds() {
+  let path = 'compoundsinfo';
+  this.props.history.push(path);
+}
+
+interestedthings() {
+  let path = 'interestedthings';
+  this.props.history.push(path);
+}
+
+takecareofyourthings() {
+  let path = 'takecareofyourthings';
+  this.props.history.push(path);
+}
+
+recipe() {
+  let path = 'recipeside';
+  this.props.history.push(path);
+}
 
 render() {
 return (
