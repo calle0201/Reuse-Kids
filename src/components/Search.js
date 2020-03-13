@@ -55,15 +55,9 @@ class Search extends Component {
         event.preventDefault();
 
         let host = 'reusesport.se.mysql';
-<<<<<<< HEAD
-let user = 'reusesport_sekids';
-let password = 'J87jket37snjt89yte5lk2';
-let database = 'reusesport_sekids';
-=======
         let user = 'reusesport_sekids';
         let password = 'J87jket37snjt89yte5lk2';
         let database = 'reusesport_sekids';
->>>>>>> e094763a16a27836acaf0e8c9db48f667cf06592
 
         
 
