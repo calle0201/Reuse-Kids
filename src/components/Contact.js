@@ -6,18 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
-import './About.css';
+//import './About.css';
 import './Contact.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 class Contact extends Component {
 
@@ -107,7 +99,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-        <div className="About-box">
+        <div className="">
           <div className="About-picture">
             <div className="About-pictureimg"><img src={Redsunset} alt="Tänk på miljön, sälj din begagnade barn produkter - ReUse Kids" /></div>
             <div className="Contact-titleBox">

@@ -6,16 +6,8 @@ import Fotboll from './../images/fotboll.jpg';
 import Price from './Price';
 //import UploadImage from './UploadImage';
 import './Sellside.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class Sellside extends Component {
@@ -225,9 +217,9 @@ class Sellside extends Component {
       
 
         let host = 'reusesport.se.mysql';
-let user = 'reusesport_sekids';
-let password = 'J87jket37snjt89yte5lk2';
-let database = 'reusesport_sekids';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
          
 
         const image = this.refs.picture.value.split('C:\\fakepath\\')[1];

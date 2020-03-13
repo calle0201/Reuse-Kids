@@ -17,9 +17,9 @@ class Admin extends Component {
     componentDidMount() {
 
         let host = 'reusesport.se.mysql';
-let user = 'reusesport_sekids';
-let password = 'J87jket37snjt89yte5lk2';
-let database = 'reusesport_sekids';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
         
         var obj = {  

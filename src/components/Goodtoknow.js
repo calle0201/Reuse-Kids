@@ -3,16 +3,8 @@ import Footer from './Footer';
 //import Redsunset from './../images/redsunset.jpg';
 import Redsunset from './../images/begagnade_sportartiklar-reusesport.jpg';
 import './Goodtoknow.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 class Goodtoknow extends Component {
          

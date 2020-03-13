@@ -4,16 +4,8 @@ import './Header.css';
 import Facebook from './../images/facebook.svg';
 import Instagram from './../images/instagram.svg';
 //import { faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class Header extends Component {

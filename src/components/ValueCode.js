@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import './ValueCode.css';
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 
 class ValueCode extends React.Component {
@@ -47,9 +39,9 @@ class ValueCode extends React.Component {
         this.setState({ code: this.refs.code.value});
 
         let host = 'reusesport.se.mysql';
-let user = 'reusesport_sekids';
-let password = 'J87jket37snjt89yte5lk2';
-let database = 'reusesport_sekids';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
         const data = {   
             code: this.refs.code.value,

@@ -1,15 +1,10 @@
 import React from 'react';
-import createHistory from 'history/createBrowserHistory'
+
 import ReactGA from 'react-ga';
 
 import "./Payson.css";
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
+
 
 
 class Payson extends React.Component {   

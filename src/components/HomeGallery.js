@@ -1,19 +1,22 @@
 import React from 'react';
 import Popup from './Popup';
 import "./HomeGallery.css";
-import createHistory from 'history/createBrowserHistory'
+
 import ReactGA from 'react-ga';
 //import Thumbnail from 'react-thumbnail';
 
 import Redsunset from './../images/redsunset.jpg';
 
 
+<<<<<<< HEAD
 const history = createHistory()
 ReactGA.initialize('UA-140699741-1');
 history.listen((location, action) => {
 ReactGA.pageview(location.pathname + location.search);
 console.log(location.pathname)
 });
+=======
+>>>>>>> e094763a16a27836acaf0e8c9db48f667cf06592
 
 //Bildgalleriet på Homesidan
 

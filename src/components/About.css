@@ -36,7 +36,9 @@
     }
 
     .About-content {
-        margin: 0 25px 150px 25px;
+        margin: 5px 25px 150px 25px;
+        padding: 1px;
+        background: #e9d7cd54;
     }
 
     .About-text_ide {
@@ -64,7 +66,7 @@
     }
 
     .About-box {
-        margin-bottom: 200px;
+        margin-bottom: 20px;
     }
 
     .About-title {
@@ -175,3 +177,29 @@
         top: -150px;
     }
 }
+@media screen and (min-width: 1420px) {
+    .About-box {
+        margin-bottom: 124px;
+    }
+}
+@media screen and (min-width: 1460px) {
+    .About-box {
+        margin-bottom: 156px;
+    }
+}
+@media screen and (min-width: 1750px) {
+    .About-box {
+        margin-bottom: 187px;
+    }
+}
+@media screen and (min-width: 2240px) {
+    .About-box {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (min-width: 2250px) {
+    .About-box {
+        margin-bottom: 220px;
+    }
+}
+

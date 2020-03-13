@@ -13,16 +13,8 @@ import barnKläder from '../images/Begagnade_barnkläder-ReUse_Kids.JPG';
 import Leksaker from '../images/Begagnade_leksaker_schleich-ReUse_Kids.JPG';
 import Pussel from '../images/Begagnade_pussel-ReUse_Kids.JPG'
 import "./Home.css";
-import createHistory from 'history/createBrowserHistory'
-import ReactGA from 'react-ga';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
 
 //Homesidan
 

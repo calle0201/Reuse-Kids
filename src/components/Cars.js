@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import Popup from './Popup';
 import './Advertisment.css';
-import createHistory from 'history/createBrowserHistory'
+
 import ReactGA from 'react-ga';
 import {Helmet} from 'react-helmet';
 
 
-const history = createHistory()
-ReactGA.initialize('UA-140699741-1');
-history.listen((location, action) => {
-    ReactGA.pageview(location.pathname + location.search);
-    console.log(location.pathname)
-});
+
 
 class Cars extends Component {
         
@@ -37,9 +32,9 @@ class Cars extends Component {
         this.props.hideAds(Ads);
 
         let host = 'reusesport.se.mysql';
-let user = 'reusesport_sekids';
-let password = 'J87jket37snjt89yte5lk2';
-let database = 'reusesport_sekids';
+        let user = 'reusesport_sekids';
+        let password = 'J87jket37snjt89yte5lk2';
+        let database = 'reusesport_sekids';
 
         var obj = {  
             method: 'POST',
