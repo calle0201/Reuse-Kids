@@ -6,93 +6,17 @@
     flex-direction: column;
     padding: 30px;
     line-height: 1.3;
-}
-    
-.Footer_first {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-}
-    
- .Footer_first-leftBox {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    }
-    
-.Footer_first-left {
-    flex-direction: column;
-    width: 50%;
-    padding: 30px;
-}
-    
-.Footer_first-middle {
-    flex-direction: column;
-    width: 50%;
-    padding: 30px;
-}
-    
-.Footer_first-right {
-    flex-direction: column;
-    
-}
-    
-.Footer_first-rightBox {
-    padding: 30px;
- }
-    
-.Footer_first-title {
-    font-size: 14px;
-    font-weight: bold;
-    padding-bottom: 10px;
- }
-    
- .Footer_first-subtitle {
-    font-size: 14px;
-}
-    
+}    
 .Footer_second {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     justify-content: center;
 }
-    
-.Footer-name {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-}
-    
- .Footer-intro {
-    font-size: 16px;
-    text-align: center;
-}
-    
- .Footerbox-left {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
- .Footerbox-middle {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    
- .Footerbox-right {
-    width: 25%;
-}
-    
 .Footer-taxes {
     text-align: center;
     margin-top: 20px;
-}
-    
+} 
 hr {
     border: 0;
     width: 90%;
@@ -100,6 +24,32 @@ hr {
     background: #555;
     height: 5px;
 }
+.table-row1 {
+    text-align: center;
+  
+}
+.table-row2 {
+    text-align: center;
+}
+.table-row-head {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px;
+}
+table {
+    border-spacing: 7px;
+    padding: 15px;
+    font-size: 12px;
+    
+}
+.white {
+    color: #e9d7cd;
+}
+table tr td a {
+text-decoration: none ;
+color: black;
+}
+
 
     }
     
@@ -114,46 +64,7 @@ hr {
     line-height: 1.3;
     }
     
-    .Footer_first {
-    display: flex;
-    flex-direction: row;
-    }
-    
-    .Footer_first-leftBox {
-    display: flex;
-    flex-direction: row;
-    width: 66%;
-    justify-content: space-around; 
-    margin-right: 275px;
-    }
-    
-    .Footer_first-left {
-    flex-direction: column;
-    width: 33,3%;
-    }
-    
-    .Footer_first-middle {
-    flex-direction: column;
-    width: 33,3%;
-    
-    }
-    
-    .Footer_first-right {
-    flex-direction: column;
-    width: 33,3%;
-    }
-    
-    
-    
-    .Footer_first-title {
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    }
-    
-    .Footer_first-subtitle {
-    font-size: 16px;
-    }
+  
     
     .Footer_second {
     display: flex;
@@ -162,36 +73,9 @@ hr {
     justify-content: center;
     }
     
-    .Footer-name {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
     
-    }
     
-    .Footer-intro {
-    font-size: 16px;
-    text-align: center;
-    }
-    
-    .Footerbox-left {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .Footerbox-middle {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    
-    .Footerbox-right {
-    width: 25%;
-    }
-    
+
     .Footer-taxes {
     text-align: center;
     margin-top: 20px;
@@ -204,8 +88,29 @@ hr {
     background: #555;
     height: 5px;
     }
-    
-    
+    .table-row1 {
+        text-align: center;
+        cursor: pointer;
+    }
+    .table-row2 {
+        text-align: center;
+        cursor: pointer;
+    }
+    .table-row-head {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 20px;
+        cursor: default;
+    }
+    table {
+        border-spacing: 5px;
+        padding: 15px;
+        width: 100%;
+    }
+    .white {
+        color: #e9d7cd;
+        cursor: default;
+    }
     }
     
     @media screen and (min-width: 768px) {
