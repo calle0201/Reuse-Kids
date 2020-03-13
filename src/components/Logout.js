@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 import NewPassword from './NewPassword';
 import './Logout.css';
 
-import ReactGA from 'react-ga';
+
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Popup from './Popup';
 import "./HomeGallery.css";
 
-import ReactGA from 'react-ga';
+
 //import Thumbnail from 'react-thumbnail';
 
 import Redsunset from './../images/redsunset.jpg';

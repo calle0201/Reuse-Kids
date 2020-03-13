@@ -1,7 +1,7 @@
 /* import React, { Component } from 'react';
 import './Footer.css';
 
-import ReactGA from 'react-ga';
+
 
 
 const history = createHistory()

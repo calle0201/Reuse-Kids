@@ -5,7 +5,7 @@ import DIF from './../images/Dif.png';
 import Anchors from './../images/anchors.png';
 import './LoginCompounds.css';
 
-import ReactGA from 'react-ga';
+
 
 
 

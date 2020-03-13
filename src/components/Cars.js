@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Popup from './Popup';
 import './Advertisment.css';
 
-import ReactGA from 'react-ga';
+
 import {Helmet} from 'react-helmet';
 
 

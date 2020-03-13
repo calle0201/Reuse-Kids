@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Popup from './Popup';
 
-import ReactGA from 'react-ga';
+
 import {Helmet} from 'react-helmet';
 
 

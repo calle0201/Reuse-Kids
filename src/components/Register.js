@@ -3,7 +3,7 @@ import Redsunset from './../images/dimma_vid_strand.jpg';
 import { withRouter } from 'react-router-dom';
 import './Register.css';
 
-import ReactGA from 'react-ga';
+
 
 
 

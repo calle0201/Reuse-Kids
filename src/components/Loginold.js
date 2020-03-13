@@ -5,7 +5,7 @@ import Ocean from './../images/ocean.jpg';
 import './Login.css';
 
 
-import ReactGA from 'react-ga';
+
 
 
 
