@@ -72,12 +72,12 @@ class Clothes extends Component {
                 <div>
                      <Helmet>
                         <title>Begagnade barn kläder </title>
-                        <meta name="description" content="Webbsida för begagnade basketstativ, basketkorgar, basketbollar, basketskor, basketkläder, basketväskor." />
+                        <meta name="description" content="Webbsida för begagnade barn kläder." />
                     </Helmet>
                 <h1 className="Advertisment_title">Barn kläder</h1>
                 <h3 className="Advertisment_subtitle">Är sidan tom finns det inga annonser för tillfället.</h3>
 
-                <div className="Advertisment">
+                <div className="Alladvertisment">
                         {
                             this.state.ads ?
                             this.state.ads.map((item) =>

@@ -79,7 +79,7 @@ class Toys extends Component {
         <h1 className="Advertisment_title">barn leksaker</h1>
         <h3 className="Advertisment_subtitle"> Är sidan tom finns det inga annonser för tillfället.</h3>
         
-        <div className="Advertisment">
+        <div className="Alladvertisment">
          
                 {
                     this.state.ads ?

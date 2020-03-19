@@ -1,12 +1,11 @@
 @media screen and (max-width: 600px) {
 
 .Advertisment {
+    margin: 50px 40px 140px 40px;
     display: flex;
     flex-direction: row;
-    padding: 0 35px;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 150px;
+    flex-wrap: wrap;
 }
 
 .Advertisment-bottom {

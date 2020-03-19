@@ -75,7 +75,7 @@ class Cars extends Component {
         <h1 className="Advertisment_title">Cycklar för barn</h1>
         <h3 className="Advertisment_subtitle">Här finns det bilar och utrustning som reservdelar, hjälmar och skyddskläder. Är sidan tom finns det inga annonser för tillfället.</h3>
         
-        <div className="Advertisment">
+        <div className="Alladvertisment">
          
                 {
                     this.state.ads ?
