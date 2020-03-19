@@ -110,7 +110,7 @@ class Contact extends Component {
             <div className="Contact-content_right">
               <h1 className="About-title">Kontakt</h1>
                 <div className="Contact-text">
-                  Vi värnar om naturen och vill att all barn produkter som ni har hemma ska komma till användning. Det är en vinst för alla.
+                  Vi värnar om naturen och vill att alla barn produkter som ni har hemma ska komma till användning. Det är en vinst för alla.
                   Du som säljare tjänar pengar på saker du inte längre använder, du som köpare kan köpa billigare artiklar och naturen vinner på att sakerna
                   inte slängs innan de är uttjänta.
                 </div>

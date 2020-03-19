@@ -32,9 +32,9 @@ class About extends Component {
 
                   Allt som vi gör inom företaget ska göras med miljön som första prioritet, alla resor görs med kommunala färdmedel, all 
                   el är miljömärkt. 
-                  <div className="About-text_Poor">Genom att sälja det du inte använder kan du även hjälpa någon som vill idrotta men som inte har råd att köpa nya saker. </div>
+                  <div className="About-text_Poor">Genom att sälja det du inte använder kan du även hjälpa någon som vill ha någon barn produkt som en leksak men som inte har råd att köpa nya saker. </div>
                  
-                  <div className="About-text_ide"> vill att vi hjälps åt för att naturen ska kunna återhämta sig och för att alla som vill idrotta ska kunna göra det.</div>
+                  <div className="About-text_ide"> Vi vill att vi hjälps åt för att naturen ska kunna återhämta sig och för att alla som vill idrotta ska kunna göra det.</div>
                  
                  <div className="About-owner_name">Anna Conradson Sjöberg</div>
                  <div className="About-owner_title">Ägare och grundare</div>
