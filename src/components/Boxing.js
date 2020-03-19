@@ -15,13 +15,14 @@ class Boxing extends Component {
         this.state = {
           datasport: null,
           clicked: null,
-          ads: []
+          ads: [],
+          test: 0
         };
     }
     
     togglePopup(id, e) {
         this.setState({
-            clicked: id
+            clicked: id,
         });
     }
            

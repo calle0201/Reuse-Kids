@@ -21,15 +21,16 @@ class Navigation extends Component {
     render() {
         return (
             <div className={`HeadMenu ${this.props.active ? 'open' : 'close' }`}>
-                <NavLink to="/" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Hem</NavLink>
-                <NavLink to="/buy" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Köpa</NavLink>
-                <NavLink to="/sell" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Sälja</NavLink>
-                <NavLink to="/about" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Om ReUse Kids</NavLink>
-                <NavLink to="/contact" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Kontakt</NavLink>
-                <NavLink to="/goodtoknow" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Bra att veta</NavLink>
-                <NavLink to="/Faq" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>FAQ</NavLink>
+                <NavLink to="/" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2' }}>Hem</NavLink>
+                <NavLink to="/buy" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2' }}>Köpa</NavLink>
+                <NavLink to="/sell" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>Sälja</NavLink>
+                <NavLink to="/about" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>Om ReUse Kids</NavLink>
+                <NavLink to="/contact" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>Kontakt</NavLink>
+                <NavLink to="/goodtoknow" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>Bra att veta</NavLink>
+                <NavLink to="/Faq" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>FAQ</NavLink>
                 <NavLink to="/mySide" exact activeStyle={{ fontWeight: 'bold'}}>MySide</NavLink>
-                <NavLink to="/loginRegister" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold'}}>Logga in</NavLink>
+                <NavLink to="/loginRegister" exact onClick={this.handleClick} activeStyle={{ fontWeight: 'bold', border: '1px solid black', background: '#bdaca2'}}>Logga in</NavLink>
+               
             </div>
         )
     }

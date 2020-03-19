@@ -29,7 +29,8 @@ data: []
 
 togglePopup(id, e) {
 this.setState({
-clicked: id
+clicked: id,
+test: test ++
 });
 }
 

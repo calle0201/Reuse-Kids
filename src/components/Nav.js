@@ -2,7 +2,6 @@ import React, {Component, useState} from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./Navigation";
 import Home from './Home'; 
-import { withRouter } from 'react-router-dom';
 import About from './About'; 
 import Contact from './Contact';
 import Sell from './Sell'; 

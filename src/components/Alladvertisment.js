@@ -13,7 +13,7 @@ class Alladvertisment extends React.Component {
             ads: [],
             sport: '',
             county: '',
-            hideAds:''
+            hideAds:'',
         };
 
         this.searchCounty = this.searchCounty.bind(this);
@@ -96,7 +96,8 @@ class Alladvertisment extends React.Component {
 
     togglePopup(id, e) {
         this.setState({
-            clicked: id
+            clicked: id,
+           
         });
     }
 

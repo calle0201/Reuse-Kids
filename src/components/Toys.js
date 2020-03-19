@@ -19,13 +19,15 @@ class Toys extends Component {
           ads: [],
           sport: '',
             county: '',
-            hideAds:''
+            hideAds:'',
+            test: 0
         };
     }
     
     togglePopup(id, e) {
         this.setState({
-            clicked: id
+            clicked: id,
+            test: test ++
         });
     }
     

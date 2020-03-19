@@ -10,7 +10,7 @@ class Popup extends React.Component {
         super(props);
         this.state = {
           data: null,
-          close: false
+          close: false,
         };
 
         this.closePopup = this.closePopup.bind(this);
@@ -21,7 +21,7 @@ class Popup extends React.Component {
     closePopup(){
       this.setState(state => ({
         clicked: null,
-        close: true
+        close: true,
       }));
 
       //history.goBack();
