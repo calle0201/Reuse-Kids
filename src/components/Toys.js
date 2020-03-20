@@ -20,14 +20,14 @@ class Toys extends Component {
           sport: '',
             county: '',
             hideAds:'',
-            test: 0
+            
         };
     }
     
     togglePopup(id, e) {
         this.setState({
             clicked: id,
-            test: test ++
+            
         });
     }
     
@@ -76,7 +76,7 @@ class Toys extends Component {
         <div>
              <Helmet>
                 <title>Begagnade Barn leksaker </title>
-                <meta name="description" content="Webbsida för begagnade bandyskridskor, bandyklubba, bandyhjälm, bandybyxor, bandyskydd, bandyhandskar." />
+                <meta name="description" content="Webbsida för begagnade barn leksaker." />
             </Helmet>
         <h1 className="Advertisment_title">barn leksaker</h1>
         <h3 className="Advertisment_subtitle"> Är sidan tom finns det inga annonser för tillfället.</h3>

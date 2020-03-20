@@ -61,6 +61,7 @@
 
 .AdvertismentBox_image {
     height: 100%;
+    text-transform: capitalize;
     position: absolute;
 }
 
@@ -88,11 +89,12 @@
     text-align: center;
 }
 
-.AdvertismentBox_title::first-letter {
-    text-transform: uppercase;
+.AdvertismentBox_title {
+    text-transform: capitalize;
+}
 }
 
-}
+
 
 @media screen and (min-width: 600px) {
     .Advertisment {
@@ -144,6 +146,7 @@
 
     .AdvertismentBox_image {
         height: 100%;
+        text-transform: capitalize;
         position: absolute;
     }
     
@@ -163,8 +166,8 @@
         padding: 6px 0;
     }
 
-    .AdvertismentBox_title::first-letter {
-        text-transform: uppercase;
+    .AdvertismentBox_title {
+        text-transform: capitalize;
     }
     
     .AdvertismentBox_date {
@@ -198,5 +201,12 @@
 @media screen and (min-width: 1024px) {
     .Advertisment {
         margin-bottom: 210px;
+    }
+    .AdvertismentBox_title {
+        text-transform: capitalize;
+        
+    }
+    .AdvertismentBox_image {
+        text-transform: capitalize;
     }
 }

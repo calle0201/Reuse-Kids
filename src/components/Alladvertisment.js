@@ -160,7 +160,9 @@ let database = 'reusesport_sekids';
                  <div className="AdvertismentBox"  onClick={this.togglePopup.bind(this, item.id)}>
                      {this.state.clicked=== item.id ? <Popup id={item.id} title={item.title} picture={item.picture} text={item.text} size={item.size} price={item.price} phone={item.phone} name={item.name} email={item.email} date={item.date} municipality={item.municipality} county={item.county}/> : null}
                      <div className="AdvertismentBox_title">
-                        <div className="AdvertismentBox_titleText">{item.title}</div>
+                      <p className="AdvertismentBox_titleText"> 
+                        {item.title} 
+                      </p>  
                     </div>
                      <div className="AdvertismentBox_imageBox">
                          <img className="AdvertismentBox_image" src={item.picture} alt={item.title}/>

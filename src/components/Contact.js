@@ -133,7 +133,7 @@ class Contact extends Component {
                       <div className="Contact-adress">Reuse Kids</div>
                       <div className="Contact-adress">Ängsvägen 4a</div>
                       <div className="Contact-adress">13648 Handen</div>
-                      <div className="Contact-adress"><FontAwesomeIcon icon={faEnvelope} /> kontakt@reusesport.se</div>
+                      <div className="Contact-adress"><FontAwesomeIcon icon={faEnvelope} /> kontakt@reusekids.se</div>
                       <div className="Contact-adress"><FontAwesomeIcon icon={faPhone} /> 073-2420632</div>
                     </div>  
                   </div>

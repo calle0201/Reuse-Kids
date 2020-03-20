@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { NavLink } from "react-router-dom";
 import "./SubNavigation.css";
+import Search from './Search';
 
 class SubNavigation extends React.Component {   
 
@@ -32,8 +33,8 @@ class SubNavigation extends React.Component {
                         <span onClick={this.handleClick} >Barn produkter</span>
                     </div>
                     
-                    <div className='Dropdown-content mobile' >
-                        <NavLink className="Nav_link " to="/Furniture" >Möbler</NavLink>
+                    <div className='Dropdown-content mobile'>
+                        <NavLink  to="/Furniture" >Möbler</NavLink>
                         <NavLink to="/Toys">Leksaker</NavLink>
                         <NavLink to="/Clothes">Kläder</NavLink>
                         <NavLink to="/Cars">Cyklar</NavLink>
