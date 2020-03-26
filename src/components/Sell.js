@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Ocean from './../images/salj_din_begagnade_sportutrustning-reusesport.jpg';
-//import ReactFileReader from 'react-file-reader';
 import Price from './Price';
 import Footer from './Footer';
 import Payson from './Payson';
@@ -15,6 +14,7 @@ class Sell extends Component {
     constructor(props) {
         super(props);
         this.state = {
+        rotation: 0,
         subject: "",
         title: "",
         text: "",
@@ -35,8 +35,11 @@ class Sell extends Component {
         checkBoxStatus: false,
         pictureInput: "",
         marketingpicture: false,
+       
+        
 };
-
+    this.rotateImageHöger = this.rotateImageHöger.bind(this);
+    this.rotateImageVänster = this.rotateImageVänster.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSport = this.handleSport.bind(this);
     this.handleSort = this.handleSort.bind(this);
@@ -48,6 +51,26 @@ class Sell extends Component {
     this.register = this.register.bind(this);
 }
 
+rotateImageVänster() {
+    let newRotation = this.state.rotation - 90;
+    if(newRotation >= 360){
+      newRotation =- 360;
+    }
+    this.setState({
+      rotation: newRotation,
+    })
+    console.log('rotera bilden vänster');
+}
+rotateImageHöger() {
+    let newRotation = this.state.rotation + 90;
+    if(newRotation >= 360){
+      newRotation =- 360;
+    }
+    this.setState({
+      rotation: newRotation,
+    })
+    console.log('rotera bilden höger');
+}
 
 update() {
 
@@ -89,9 +112,7 @@ fileSelected(event) {
 
 }
 
-rotateImage() {
-    console.log('rotera bilden');
-}
+
 
 
 fileUpload(event) {
@@ -281,7 +302,7 @@ onSubmit = () => {
 
 
 render() {
-
+    const { rotation } =  this.state;
 return (
 
 <div className="Sell">
@@ -353,7 +374,9 @@ return (
 <input className="fileInput" id="picture" type="file" ref="picture" name="picture" defaultValue={this.state.file} multiple accept=".jpg, .jpeg, .png" onChange={this.fileSelected} required/>
 </form>
 
-<img className="Sell-seePicture" src={this.state.file}/>
+<img style={{transform: `rotate(${rotation}deg)`}} className="Sell-seePicture" src={this.state.file}/>
+<button onClick={this.rotateImageVänster}>snurra vänster</button>
+<button onClick={this.rotateImageHöger}>snurra höger</button>
 </div>
 
 <div className="Sell-innerBox">

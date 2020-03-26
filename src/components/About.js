@@ -24,14 +24,10 @@ class About extends Component {
               <h1 className="About-title">Grundarens tankar om företaget</h1>
               <div className="About-text">
 
-                  Jag har själv flera barn som provat på ett par idrotter var. Det var när jag under en konståkningslektion satt 
-                  och pratade med en annan mamma om alla saker som ligger hemma och inte används längre som jag kom på den här företagsidén.
-                  Det gick några år och högen med idrotts saker blev större men nu är idén förverkligad. 
-                  Jag vill både att vi ska hjälpas åt och spara på jordens resurser genom att återanvända alla fotbollsskor, slalomskidor, hockeyskydd och andra saker som ligger på
-                  våra vindar, i garderober och källare. 
+              När jag höll på att utveckla ReUse Sport så kom jag att tänka på att det finns så mycket mer än sportartiklar som mycket enklare skulle kunna säljas på ett ställe. Där man enkelt kan hitta till det man söker. Jag har själv 4 barn och är det något som går åt under barnens uppväxt så är det kläder, dessa växes ut långt innan de är utslitna. Leksakerna är bara kul under en begränsad period och många barn kan roas av dem under deras livslängd.
+                <br></br>
+                Miljötänket finns hela tiden med i företaget. 
 
-                  Allt som vi gör inom företaget ska göras med miljön som första prioritet, alla resor görs med kommunala färdmedel, all 
-                  el är miljömärkt. 
                   <div className="About-text_Poor">Genom att sälja det du inte använder kan du även hjälpa någon som vill ha någon barn produkt som en leksak men som inte har råd att köpa nya saker. </div>
                  
                   <div className="About-text_ide"> Vi vill att vi hjälps åt för att naturen ska kunna återhämta sig och för att alla som vill idrotta ska kunna göra det.</div>

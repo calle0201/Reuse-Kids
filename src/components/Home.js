@@ -3,6 +3,7 @@ import HomeGallery from './HomeGallery';
 import Loggain from './Loggain';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
+import PictureWheel from './PictureWheel'
 //import Sunset from './../images/sunset.jpg';
 //import Ridning from './../images/häst.jpg';
 //import Lacrosse from './../images/lacrosse2.jpg';
@@ -87,6 +88,7 @@ class Home extends React.Component {
                     <div className="Home-content_middle">
                         <div className="Home-header">
                         <h1 className="Header-title">Här kan du köpa och sälja dina barn produkter.</h1>
+                       <PictureWheel/>
                         <div className="Home-box">
                             <h2 className="Home-info">Passa på!</h2>
                             <h3 className="Home-subinfo">Just nu kan du lägga in dina annonser gratis.</h3>     

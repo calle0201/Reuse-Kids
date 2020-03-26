@@ -34,7 +34,6 @@ class Register extends React.Component {
         if(this.state.checkBoxStatus === true){
 
             let host = process.env.REACT_APP_REUSESPORT_DB_HOST; 
-
             let user = process.env.REACT_APP_REUSESPORT_DB_USER 
             let password = process.env.REACT_APP_REUSESPORT_DB_PASSWORD
             let database = process.env.REACT_APP_REUSESPORT_DB_NAME

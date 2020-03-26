@@ -106,7 +106,7 @@ class Contact extends React.Component {
   render() {
     return (
 
-
+    <div>
       <div className="Contact">
       <form className="Contact_form" onSubmit={this.handleSubmit}>
         <div className="Contact_title">Kontaktformulär</div>
@@ -132,6 +132,7 @@ class Contact extends React.Component {
           </form>
         </div>
       </div>
+    </div>
     )
   }
 }

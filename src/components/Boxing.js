@@ -16,7 +16,7 @@ class Boxing extends Component {
           datasport: null,
           clicked: null,
           ads: [],
-          test: 0
+          rotation: 0,
         };
     }
     
@@ -64,6 +64,7 @@ class Boxing extends Component {
     }
          
     render() {
+      const { rotation } =  this.state;
       return (
         <div>
              <Helmet>
@@ -83,7 +84,7 @@ class Boxing extends Component {
                          {this.state.clicked=== item.id ? <Popup id={item.id} title={item.title} picture={item.picture} text={item.text} size={item.size} price={item.price} phone={item.phone} name={item.name} email={item.email} date={item.date} municipality={item.municipality} county={item.county}/> : null}
                          <h3 className="AdvertismentBox_title">{item.title}</h3>
                         <div className="AdvertismentBox_imageBox">
-                            <img className="AdvertismentBox_image" src={item.picture} alt={item.title}/>
+                            <img style={{transform: `rotate(${rotation}deg)`}} className="AdvertismentBox_image" src={item.picture} alt={item.title}/>
                         </div>
                         <div className="AdvertismentBox_price">{item.price} kr</div>
                         <div className="AdvertismentBox_date">{item.date}</div>
