@@ -14,14 +14,15 @@ class Furniture extends Component {
           datasport: null,
           clicked: null,
           ads: [],
-          test: 0
+          
         };
+       
     }
     
     togglePopup(id, e) {
         this.setState({
             clicked: id,
-            test: test ++
+           
         });
     }
     
@@ -90,6 +91,7 @@ class Furniture extends Component {
                         <div className="AdvertismentBox_price">{item.price} kr</div>
                         <div className="AdvertismentBox_date">{item.date}</div>
                         <div className="AdvertismentBox_county">{item.county}</div>
+                        <div>{item.show}</div>
                          </div>
                          </div>
                     )

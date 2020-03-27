@@ -5,7 +5,6 @@ import "./HomeGallery.css";
 
 //import Thumbnail from 'react-thumbnail';
 
-import Redsunset from './../images/redsunset.jpg';
 
 
 
@@ -21,7 +20,8 @@ constructor(props, pic) {
       clicked: null,
       pictures: '',
       ads: [],
-      data: []
+      data: [],
+     
 };
 }
 

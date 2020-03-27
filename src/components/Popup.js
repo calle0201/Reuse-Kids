@@ -28,13 +28,13 @@ class Popup extends React.Component {
       //window.location.reload();
     }
 
-
+ 
     render() {
       const clicked = this.props.clicked;
      
       return (
 
-        <div className={`popup  ${this.state.close ? "closeAd": ""}`}>
+        <div  className={`popup  ${this.state.close ? "closeAd": ""}`}>
           <div className='popup_inner'>
             <div className="popup_firstBox">
               <div className="popup_number">Annonsnummer: {this.props.id}</div>

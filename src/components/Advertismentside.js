@@ -9,10 +9,10 @@ class Advertismentside extends React.Component {
         this.state = {
           data: null,
         };
-
-    
-       
     }
+
+  
+
 
 
     render() {
