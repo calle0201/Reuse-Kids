@@ -8,7 +8,7 @@
         background: #e9d7cd;
         color: black;
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         text-decoration: none;
@@ -17,7 +17,7 @@
 
 
     .HeadMenu {
-        display:flex;
+        display: flex;
         flex-direction: column;
         border: 1px solid black;
     }
@@ -28,34 +28,29 @@
         border-bottom: 1px solid black;
         padding: 2px 0;
     }
-         
+
 }
-    
+
 @media screen and (min-width: 600px) {
-       
+
     .HeadMenu {
         background: #e9d7cd;
         padding: 12px 0;
-    }  
+    }
 
     NavLink {
         cursor: pointer;
     }
-        
-       
-}
-    
-@media screen and (min-width: 768px) {
-     
-}
-    
-@media screen and (min-width: 992px) {
-     
-}
-    
-@media screen and (max-width: 1024px) {
-     .HeadMenu {
-         max-width: 1024px;
-     }
+
+
 }
 
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 1024px) {
+    .HeadMenu {
+        max-width: 1024px;
+    }
+}

@@ -7,22 +7,22 @@
         border: 1px solid blue;
         opacity: 0;
     }
-    
+
     .Hamburger {
-       position: relative;
-       left: 10px;
-       z-index: 1000;
+        position: relative;
+        left: 10px;
+        z-index: 1000;
     }
 
     .HamburgerMenu {
         cursor: pointer;
     }
 
-    .Hamburger-checkbox + .Nav div {
+    .Hamburger-checkbox+.Nav div {
         display: none;
     }
 
-    .Hamburger-checkbox:checked + .Nav div a{
+    .Hamburger-checkbox:checked+.Nav div a {
         display: block;
     }
 
@@ -44,70 +44,69 @@
     .Nav div a .close {
         display: none;
     }
-    
+
     .route {
-     
+
         cursor: pointer;
-        
+
     }
-    
+
     .Nav ul {
         margin-bottom: 10px;
     }
 
- 
+
 
 
 }
+
 @media screen and (min-width: 600px) {
 
-.Nav {
-    height: 45px;
-    width: 100%;
-    position:relative;
-}
+    .Nav {
+        height: 45px;
+        width: 100%;
+        position: relative;
+    }
 
 
 
-.Nav div a {
-    color: black;
-    display:inline;
-    cursor: pointer;
-    font-size: 13px;
-} 
+    .Nav div a {
+        color: black;
+        display: inline;
+        cursor: pointer;
+        font-size: 13px;
+    }
 
-.route {
- 
-    cursor: pointer;
-    
-}
+    .route {
 
-.Nav ul {
-    margin-bottom: 10px;
-}
+        cursor: pointer;
 
-.Hamburger-checkbox {
-    display: none;
-}
+    }
 
-.Hamburger {
-    display: none;
-}
+    .Nav ul {
+        margin-bottom: 10px;
+    }
+
+    .Hamburger-checkbox {
+        display: none;
+    }
+
+    .Hamburger {
+        display: none;
+    }
 
 }
 
 @media screen and (min-width: 768px) {
     .Nav div a {
         font-size: 16px;
-    } 
+    }
 }
 
 @media screen and (min-width: 992px) {
     .Nav div a {
         font-size: 18px;
-    } 
+    }
 }
 
-@media screen and (min-width: 1024px) {
- 
-}
+@media screen and (min-width: 1024px) {}
