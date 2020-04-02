@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Product from './Product';
+//import Product from './Product';
 //import RouteWithSubRoutes from './RouteWithSubRoutes';
 import Furniture from './Furniture'; 
 import Toys from './Toys'; 
@@ -9,7 +9,7 @@ import Clothes from './Clothes';
 import Boxing from './Boxing'; 
 import Other from './Other'; 
 import Footer from './Footer'; 
-import Search from './Search'; 
+//import Search from './Search'; 
 import Alladvertisment from './Alladvertisment'; 
 import SubNavigation from './SubNavigation'; 
 import "./Buy.css";

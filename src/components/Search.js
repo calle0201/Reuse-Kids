@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Ocean from './../images/ocean.jpg';
 import Popup from './Popup';
 
 import './Search.css';

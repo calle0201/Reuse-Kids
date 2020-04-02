@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MyAdvertisment from './MyAdvertisment';
-import MyInformation from './MyInformation';
+//import MyAdvertisment from './MyAdvertisment';
+//import MyInformation from './MyInformation';
 //import Logout from './Logout';
 import './NewPassword.css';
 
@@ -68,7 +68,7 @@ class NewPassword extends Component {
             this.setState({
                 data:data
             });
-            if(data == 1) {
+            if(data === 1) {
                 alert('Ditt lösenord är nu ändrat.');
                 
             }

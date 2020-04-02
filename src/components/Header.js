@@ -29,8 +29,8 @@ class Header extends Component {
         <div className="Header-rightBox">
           <div className="Header-rightBox_first"></div>
           <div className="Header-rightBox_second">
-            <div className="Facebook" onClick={this.handleClick}><a href="https://www.facebook.com/reusesport.se/" target="_blank"><img src={Facebook} alt="Facebook -  ReUse Kids" /></a></div>
-            <div className="Instagram" onClick={this.handleClick}><a href="https://www.instagram.com/reusesport.se/" target="_blank"><img src={Instagram} alt="Instagram -  ReUse Kids" /></a></div>
+            <div className="Facebook" onClick={this.handleClick}><a href="https://www.facebook.com/reusesport.se/" rel="noopener noreferrer" target="_blank"><img src={Facebook} alt="Facebook -  ReUse Kids" /></a></div>
+            <div className="Instagram" onClick={this.handleClick}><a href="https://www.instagram.com/reusesport.se/" rel="noopener noreferrer" target="_blank"><img src={Instagram} alt="Instagram -  ReUse Kids" /></a></div>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import DeleteAdvertisment from './DeleteAdvertisment';
 import './MyAdvertisment.css';
 
 
-import { faFirstAid } from '@fortawesome/free-solid-svg-icons';
+
 
 
 

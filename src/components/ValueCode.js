@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ValueCode.css';
 
 
@@ -67,13 +67,13 @@ class ValueCode extends React.Component {
                data: data 
            });
           // console.log(data)
-           if(data == 1) {
+           if(data === 1) {
                console.log('koden fungerar');
            }
-           else if(data == 2) {
+           else if(data === 2) {
                 console.log('Koden är förbrukad eller felaktig.')
            }
-           else if(data == 3) {
+           else if(data === 3) {
             console.log('Det saknas uppgifter.')
        }
        })
@@ -81,7 +81,7 @@ class ValueCode extends React.Component {
 
         console.log(data);
   
-        var newprocent;
+        
         console.log(this.refs.code.value)
 
         if(this.refs.code.value === 'kalle') {
@@ -92,7 +92,7 @@ class ValueCode extends React.Component {
             console.log(this.state.newprocent);
         } else {
             console.log('annan kod');
-            var procent = 1;
+             procent = 1;
             this.setState({ procent: procent});
             console.log(procent);
         }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ValueCode from './ValueCode';
 import './Price.css';
 
@@ -24,15 +24,14 @@ class Price extends React.Component {
     }
     
     render() {
-        const price = this.props.price;
-        const email = this.props.email;
+ 
         //this.setState({hasPrice: true});
 
         
         //console.log(procent);
 
         var cost = 0;
-        var procent;
+        //var procent;
 
         if ( this.props.price > 0 && this.props.price < 51) {
             cost = 5;

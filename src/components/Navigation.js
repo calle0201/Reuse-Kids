@@ -8,10 +8,7 @@ import "./Navigation.css";
 
 //const Navigation = () => {
 class Navigation extends Component {
-    constructor(props) {
-        super(props);
-       
-    }
+  
 
     handleClick() {
        

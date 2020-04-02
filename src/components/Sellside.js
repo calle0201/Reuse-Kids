@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Frisbee from './../images/frisbee1.jpg';
+
 import Running from './../images/löparbana.jpg';
 import Ishall from './../images/ishall.jpg';
 import Fotboll from './../images/fotboll.jpg';
@@ -17,14 +17,11 @@ class Sellside extends Component {
         super(props);
         this.state = {
             
-            email: "",
+          
             registerPassword: "",
             approved: "",
             checkBoxStatus: false,
             checkBoxNews: false,
-            text: "",
-            answer: '',
-            text: "",
             answer: '',
             sport: "",
             title: "",
@@ -43,7 +40,6 @@ class Sellside extends Component {
             value: "",
             selectedFile: null,
             file: null,
-            checkBoxStatus: false,
             pictureInput: "",
             marketingpicture: false,
         }    
@@ -97,7 +93,7 @@ class Sellside extends Component {
                    data: data 
                 });
 
-                if(data == 1) {
+                if(data === 1) {
                     alert('Du har redan ett konto hos oss.');
                 }
                 else {
@@ -107,7 +103,7 @@ class Sellside extends Component {
 
             if( this.state.checkBoxNews === true) {
                 
-                var data = {
+                 data = {
                     email: this.refs.email.value,
                     host: host,
                     user: user,
@@ -256,13 +252,13 @@ class Sellside extends Component {
                 data: data 
             });
            // console.log(data)
-            if(data == 1) {
+            if(data === 1) {
                 alert('Tack! Din annons är nu publicerad.')
             }
-            else if(data == 2) {
+            else if(data === 2) {
                  alert('Du måste fylla i alla fälten.');
             }
-            else if(data == 3) {
+            else if(data === 3) {
                 alert('Bilden måsta vara mindre än 2 MB.');
            }
             else{
@@ -308,8 +304,8 @@ class Sellside extends Component {
 
     acceptDataApproved(event) {
         const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        let checkBoxStatus = false;
+        //const value = target.type === 'checkbox' ? target.checked : target.value;
+        //let checkBoxStatus = false;
 
         if(target.name === 'approved') {
 
@@ -323,8 +319,8 @@ class Sellside extends Component {
 
     onAcceptPicture(event) {
         const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        let checkBoxStatus = false;
+        //const value = target.type === 'checkbox' ? target.checked : target.value;
+        //let checkBoxStatus = false;
 
         if(target.name === 'acceptPicture') {
 
@@ -355,9 +351,9 @@ class Sellside extends Component {
     }
 
     clickedCheckBoxApproved(event) {
-        const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        const checkBoxStatus = target.name;
+        //const target = event.target;
+        //const value = target.type === 'checkbox' ? target.checked : target.value;
+        //const checkBoxStatus = target.name;
 
         this.setState({
             checkBoxStatus: true
@@ -366,8 +362,8 @@ class Sellside extends Component {
 
     clickedCheckBoxNewsletter(event) {
         const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        const checkBoxNewsletter = target.name;
+        //const value = target.type === 'checkbox' ? target.checked : target.value;
+        //const checkBoxNewsletter = target.name;
 
         console.log( target.name);
 

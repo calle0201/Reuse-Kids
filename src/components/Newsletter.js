@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Redsunset from './../images/redsunset.jpg';
+
 
 import './Newsletter.css';
 
@@ -55,10 +55,10 @@ class Newsletter extends Component {
                data: data 
             });
 
-            if(data == 1) {
+            if(data === 1) {
                 alert('Du kommer nu få vårt nyhetsbrev till din mail.');
             }
-            else if (data == 2) {
+            else if (data === 2) {
                 alert('Du måste ange din mailadress.');
             }
             else{

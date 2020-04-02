@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Popup.css';
 
 
@@ -30,7 +30,7 @@ class Popup extends React.Component {
 
  
     render() {
-      const clicked = this.props.clicked;
+      
      
       return (
 

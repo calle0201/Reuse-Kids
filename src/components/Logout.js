@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+
 import { withRouter } from 'react-router-dom';
-import NewPassword from './NewPassword';
+//import NewPassword from './NewPassword';
 import './Logout.css';
 
 
@@ -24,7 +24,7 @@ class Logout extends Component {
 
     componentDidMount() {
         console.log(this.props.userid);
-       let userid = this.props.userid;
+       //let userid = this.props.userid;
 
       //  this.getAdvertisment(userid);
     }

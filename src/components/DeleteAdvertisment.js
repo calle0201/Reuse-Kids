@@ -52,7 +52,7 @@ class DeleteAdvertisment extends Component {
         this.setState({
             data:data
         });
-        if(data == 1) {
+        if(data === 1) {
             alert('Annonsen är nu borttagen.')
         }
        

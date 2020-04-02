@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Popup from './Popup';
-import Redsunset from './../images/redsunset.jpg';
 import './Thanksregister.css';
 
 

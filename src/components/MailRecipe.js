@@ -3,7 +3,6 @@ import Ridning from './../images/begagnad_ridutrustning_ridstovlar_ridhjalm-reus
 import Lacrosse from './../images/begagnad_lacrosseutrustning_lacrossehjalm_lacrossestick-reusesport.jpg';
 import Konstakning from './../images/begagnad_konstakningsutrustning_konstakningsskridskor-reusesport.jpg';
 import Skidor from './../images/begagnade_skidor-reusesport.jpg';
-import Recipe from './Recipe';
 import './MailRecipe.css';
 
 
@@ -64,11 +63,11 @@ class MailRecipe extends Component {
                 data: data 
                 });
 
-                if(data == 1) {
+                if(data === 1) {
                     let path = 'recipe';
                     this.props.history.push(path); 
                 }
-                else if (data == 2) {
+                else if (data === 2) {
                     alert('Du måste ange din mailadress.');
                 }
                 else{

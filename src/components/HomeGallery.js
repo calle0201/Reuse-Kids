@@ -83,20 +83,15 @@ render() {
           this.state.ads ? 
           this.state.ads.map((item) =>
           <div className="Advertisment-outsideBox">
-          <div className="AdvertismentBox" onClick={this.
-          togglePopup.bind(this, item.id)}>
+          <div className="AdvertismentBox" onClick={this.togglePopup.bind(this, item.id)}>
             {this.state.clicked=== item.id ? <Popup id=
-            {item.id} title={item.title} picture={item.
-            picture} text={item.text} size={item.size}
+            {item.id} title={item.title} picture={item.picture} text={item.text} size={item.size}
             price={item.price} phone={item.phone} name=
             {item.name} email={item.email} date={item.date}
-             municipality={item.municipality} county={item.
-             county}/> : null}
-             <h3 className="AdvertismentBox_title">{item.
-             title}</h3>
+             municipality={item.municipality} county={item.county}/> : null}
+             <h3 className="AdvertismentBox_title">{item.title}</h3>
           <div className="AdvertismentBox_imageBox">
-            <img className="AdvertismentBox_image" src={item.
-              picture} alt={item.title}/>
+            <img className="AdvertismentBox_image" src={item.picture} alt={item.title}/>
           </div>
           <div className="AdvertismentBox_price">{item.price} kr
           </div>

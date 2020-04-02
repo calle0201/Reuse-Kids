@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { NavLink } from "react-router-dom";
 import "./SubNavigation.css";
-import Search from './Search';
+//import Search from './Search';
 
 class SubNavigation extends React.Component {   
 

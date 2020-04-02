@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MyAdvertisment from './MyAdvertisment';
-import MyInformation from './MyInformation';
+//import MyInformation from './MyInformation';
 import Redsunset from './../images/tank_pa_miljon-reusesport.jpg';
 import Logout from './Logout';
 import Footer from './Footer';

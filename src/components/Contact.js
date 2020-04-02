@@ -80,7 +80,7 @@ class Contact extends Component {
            data: data 
         });
         console.log(data);
-        if(data == 1) {
+        if(data === 1) {
           let path = 'Thankscontact';
           this.props.history.push(path); 
         }

@@ -16,7 +16,7 @@ class Advertismentside extends React.Component {
 
 
     render() {
-      const clicked = this.props.clicked;
+      
      
       return (
 

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Loggain from './Loggain';
+//import Loggain from './Loggain';
 import Login from './Login';
 import Register from './Register';
 import Footer from './Footer';
-//import Auth from './Auth';
-//mport Redsunset from './../images/redsunset.jpg';
 import Redsunset from './../images/salj_din_begagnade_sportutrustning-reusesport.jpg';
 
 import './LoginRegister.css';

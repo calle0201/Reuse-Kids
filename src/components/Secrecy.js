@@ -4,7 +4,7 @@ import Ridning from './../images/begagnad_ridutrustning_ridstovlar_ridhjalm-reus
 import Lacrosse from './../images/begagnad_lacrosseutrustning_lacrossehjalm_lacrossestick-reusesport.jpg';
 import Konstakning from './../images/begagnad_konstakningsutrustning_konstakningsskridskor-reusesport.jpg';
 import Skidor from './../images/begagnade_skidor-reusesport.jpg';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 
 

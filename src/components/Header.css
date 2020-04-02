@@ -26,6 +26,7 @@
         font-family: 'Chango', cursive;
         font-size: 14px;
         top:17px;
+        left: 10px;
     }
    
     .Header-name_under {
@@ -33,6 +34,7 @@
         font-family: 'Acme', sans-serif;
         font-size: 12px;
         top:29px;
+        left: 28px;
     
     }
    
@@ -48,7 +50,12 @@
     }
 
     .Header-leftBox {
-        width: 30px;
+        text-align: center;
+        width: 85px;
+        left: 42%;
+        justify-content: center;
+        position: relative;
+        display: flex;
      }
 
      .Header-middleBox {

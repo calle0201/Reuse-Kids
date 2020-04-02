@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './NewsletterSide.css';
 import Running from './../images/löparbana.jpg';
 /*import Ishall from './../images/begagnade_skridskor_konståkningsskridskor_hockeyskridskor-ReUse_sport.jpg';
@@ -59,11 +59,11 @@ class NewsletterSide extends React.Component {
                data: data 
             });
 
-            if(data == 1) {
+            if(data === 1) {
                 let path = 'thanksemail';
                 this.props.history.push(path); 
             }
-            else if (data == 2) {
+            else if (data === 2) {
                 alert('Du måste ange din mailadress.');
             }
             else{

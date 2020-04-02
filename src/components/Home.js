@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeGallery from './HomeGallery';
-import Loggain from './Loggain';
+//import Loggain from './Loggain';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
 import PictureWheel from './PictureWheel'

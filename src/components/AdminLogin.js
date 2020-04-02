@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+
 import { withRouter } from 'react-router-dom';
-import NewPassword from './NewPassword';
+//import NewPassword from './NewPassword';
 import './Login.css';
 
 
@@ -114,13 +114,13 @@ class AdminLogin extends Component {
             this.setState({
                 data:data
             });
-            if(data == 1) {
+            if(data === 1) {
                 this.findUserid();
             }
-            else if(data == 2) {
+            else if(data === 2) {
                 alert('Du har angett ett felaktigt lösenord.');
             }
-            else if(data == 3) {
+            else if(data === 3) {
                 alert('Du har angett ett felaktigt användarnamn.');
             }
             else {

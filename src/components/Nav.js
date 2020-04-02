@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./Navigation";
 import Home from './Home'; 
@@ -6,7 +6,6 @@ import About from './About';
 import Contact from './Contact';
 import Sell from './Sell'; 
 import Buy from './Buy';
-import Register from './Register';
 import LoginRegister from './LoginRegister';
 import Goodtoknow from './Goodtoknow';
 import ThanksAd from './ThanksAd';
@@ -22,21 +21,20 @@ import Sellside from './Sellside';
 import Faq from './Faq';
 import Admin from './Admin';
 import AdminLogin from './AdminLogin';
-import Recipe from './Recipe';
 import Secrecy from './Secrecy';
 import MailRecipe from './MailRecipe';
-import Injury from './Injury';
+
 import MailInjury from './MailInjury';
 import Payson from './Payson';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-//import { faInstagram } from '@fortawesome/free-solid-svg-icons'
+
 
 
 import "./Nav.css";
-import { parse } from '@fortawesome/fontawesome-svg-core';
+
 
 
 class Nav extends Component {
@@ -112,10 +110,8 @@ class Nav extends Component {
                             <Route path="/newpassword" component={Newpassword} />
                             <Route path="/adminlogin" component={AdminLogin} />
                             <Route path="/admin" component={Admin} />
-                            <Route path="/recipe" component={Recipe} />
                             <Route path="/secrecy" component={Secrecy} />
                             <Route path="/mailrecipe" component={MailRecipe} />
-                            <Route path="/injury" component={Injury} />
                             <Route path="/mailinjury" component={MailInjury} />
                             <Route path="/payson" component={Payson} />
                         </Switch>

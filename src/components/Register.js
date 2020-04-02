@@ -1,5 +1,5 @@
 import React from 'react';
-import Redsunset from './../images/dimma_vid_strand.jpg';
+//import Redsunset from './../images/dimma_vid_strand.jpg';
 import { withRouter } from 'react-router-dom';
 import './Register.css';
 
@@ -69,10 +69,10 @@ this.setState({
 data: data
 });
 
-if(data == 1) {
+if(data === 1) {
 alert('Du har redan ett konto hos oss.');
 }
-else if(data == 2) {
+else if(data === 2) {
 alert('Du måste ange både mailadress och lösenord.');
 }
 else {
@@ -84,7 +84,7 @@ this.props.history.push(path);
 
 if( this.state.checkBoxNews === true) {
 
-var data = {
+ data = {
 email: this.refs.email.value,
 host: host,
 user: user,
@@ -126,9 +126,9 @@ this.props.history.push(path);
 }
 
 clickedCheckBoxApproved(event) {
-const target = event.target;
-const value = target.type === 'checkbox' ? target.checked : target.value;
-const checkBoxStatus = target.name;
+//const target = event.target;
+//const value = target.type === 'checkbox' ? target.checked : target.value;
+//const checkBoxStatus = target.name;
 
 this.setState({
 checkBoxStatus: true
@@ -136,11 +136,11 @@ checkBoxStatus: true
 }
 
 clickedCheckBoxNewsletter(event) {
-const target = event.target;
-const value = target.type === 'checkbox' ? target.checked : target.value;
-const checkBoxNewsletter = target.name;
+//const target = event.target;
+//const value = target.type === 'checkbox' ? target.checked : target.value;
+//const checkBoxNewsletter = target.name;
 
-console.log( target.name);
+//console.log( target.name);
 
 this.setState({
 checkBoxNews: true
