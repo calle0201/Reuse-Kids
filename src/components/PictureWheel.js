@@ -41,7 +41,7 @@ class PictureWheel extends Component {
                 disabled={property.index === 0}
                 >Prev</button>
             </div>
-        <div className={`cards-slider active-slide-${property.index}`}>
+        <div className={`active-slide-${property.index} cards-slider`}>
             <div className="cards-slider-wrapper" style={{
                 'transform': `translateX(-${property.index*(100/properties.length+ 69)}%)`
             }}>

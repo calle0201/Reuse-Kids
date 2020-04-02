@@ -1,4 +1,5 @@
 import React from "react";
+import './PictureWheel.css';
 
 const Card = ({property}) => {
     const {index, picture, annons} = property;
