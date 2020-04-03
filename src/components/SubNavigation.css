@@ -23,19 +23,11 @@
     text-decoration: none;
 }
 
-.middle { /* för att göra att span är i mitten  */
-  width:50%;
-  position: relative;
- 
-  text-align: center;
-  background: #e9d7cd;
-  border: 1px solid black;
-}
 .mobile { /* så att valen för olika barn produkter hamnar i mitten och blir stylade */
   background: #e9d7cd;
   border: 1px solid black;
   color: black;
-
+text-align: center;
   display: block;
   width:50%;
 }

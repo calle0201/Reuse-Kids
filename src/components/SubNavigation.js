@@ -29,7 +29,7 @@ class SubNavigation extends React.Component {
                 <div className="Dropdown " >
 
                   
-                    <div className="middle">
+                    <div className="mobile">
                         <span onClick={this.handleClick} >Barn produkter</span>
                     </div>
                     
