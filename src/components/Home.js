@@ -99,7 +99,9 @@ class Home extends React.Component {
                         </div>
                         <div className="Home-content_position">
                         <div className="Home-content-text">De senast inlagda annonserna.</div>
-                        <HomeGallery />
+                       
+                        <HomeGallery /> 
+                    
                         </div>
                     </div>    
                    

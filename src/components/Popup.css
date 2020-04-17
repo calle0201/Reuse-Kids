@@ -235,7 +235,11 @@
         border: 2px solid black;
         text-transform: capitalize;
     }
-
+    .popup_picture:hover {
+        width: 260%;
+        height: 260%;
+   
+    }
     .popup_text {
         font-size: 14px;
         font-weight: normal;
