@@ -39,8 +39,8 @@ return (
   </div>
   <div className="table-row1">
   <h2>Sociala medier</h2>
-   <a onClick={this.handleClick} className="social" href="#" target="_blank">Instagram</a>
-   <a onClick={this.handleClick} className="social" href="#" target="_blank">Facebook</a>
+   <a onClick={this.handleClick} className="social" href="" target="_blank">Instagram</a>
+   <a onClick={this.handleClick} className="social" href="" target="_blank">Facebook</a>
   </div>
   <div className="table-row2">
     <h2>Nyttig information</h2>

@@ -82,7 +82,7 @@ render() {
         {
           this.state.ads ? 
           this.state.ads.map((item) =>
-          <div className="Advertisment-outsideBox">
+          <div  className="Advertisment-outsideBox">
           <div className="AdvertismentBox" onClick={this.togglePopup.bind(this, item.id)}>
             {this.state.clicked=== item.id ? <Popup id=
             {item.id} title={item.title} picture={item.picture} text={item.text} size={item.size}

@@ -156,7 +156,7 @@ let database = 'reusesport_sekids';
                  
                  this.state.ads ?
                  this.state.ads.map((item) =>
-                 <div className="Advertisment-outsideBox">
+                 <div id={`item-${item.id}`} className="Advertisment-outsideBox">
                  <div className="AdvertismentBox"  onClick={this.togglePopup.bind(this, item.id)}>
                      {this.state.clicked=== item.id ? <Popup id={item.id} title={item.title} picture={item.picture} text={item.text} size={item.size} price={item.price} phone={item.phone} name={item.name} email={item.email} date={item.date} municipality={item.municipality} county={item.county}/> : null}
                      <div className="AdvertismentBox_title">

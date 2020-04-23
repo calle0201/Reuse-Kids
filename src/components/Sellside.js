@@ -163,7 +163,7 @@ class Sellside extends Component {
         this.setState({county: event.target.value});
     }
 
-    fileSelected(event) {
+ /*    fileSelected(event) {
 
         this.setState({
             picture: event.target.files[0],
@@ -172,7 +172,7 @@ class Sellside extends Component {
 
         // <img className="Sell-seePicture" src={this.state.file}/>
   
-    }
+    } */
 
     rotateImage() {
         console.log('rotera bilden');
@@ -397,11 +397,7 @@ class Sellside extends Component {
     }
    
 
-    handleChange(event) {
-        
-        
-    }
-
+  
 
 
     render() {
@@ -485,7 +481,7 @@ class Sellside extends Component {
                                     <input className="fileInput" id="picture" type="file" ref="picture" name="picture"  defaultValue={this.state.file} multiple accept=".jpg, .jpeg, .png" onChange={this.fileSelected}  required/>
                                </form>
 
-                                <img className="Sell-seePicture" src={this.state.file}/>
+                                <img className="Sell-seePicture" src={this.state.file} alt=''/>
                             </div>
                            
                             <div className="Sell-innerBox">

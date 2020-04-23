@@ -29,7 +29,7 @@ class MailRecipe extends Component {
 
         console.log(this.refs.email.value);
         
-        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.refs.email.value)){
+        if (/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/.test(this.refs.email.value)){
            
            
         
