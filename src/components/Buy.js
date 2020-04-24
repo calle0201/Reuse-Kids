@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 //import RouteWithSubRoutes from './RouteWithSubRoutes';
 import Furniture from './Furniture'; 
 import Toys from './Toys'; 
-import Cars from './Cars';
+import Cars from './Cycle';
 import Clothes from './Clothes'; 
 import Boxing from './Boxing'; 
 import Other from './Other'; 
