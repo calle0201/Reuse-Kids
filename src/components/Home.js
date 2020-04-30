@@ -14,7 +14,7 @@ import barnKläder from '../images/Begagnade_barnkläder-ReUse_Kids.JPG';
 import Leksaker from '../images/Begagnade_leksaker_schleich-ReUse_Kids.JPG';
 import Pussel from '../images/Begagnade_pussel-ReUse_Kids.JPG'
 import "./Home.css";
-
+import ImgRotate from './testImgRotate'
 
 
 //Homesidan
@@ -88,6 +88,7 @@ class Home extends React.Component {
                     <div className="Home-content_middle">
                         <div className="Home-header">
                         <h1 className="Header-title">Här kan du köpa och sälja dina barn produkter.</h1>
+                        <ImgRotate/>
                        <PictureWheel/>
                         <div className="Home-box">
                             <h2 className="Home-info">Passa på!</h2>

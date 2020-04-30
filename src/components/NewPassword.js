@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import MyAdvertisment from './MyAdvertisment';
 //import MyInformation from './MyInformation';
 //import Logout from './Logout';
 import './NewPassword.css';

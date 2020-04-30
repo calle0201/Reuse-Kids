@@ -186,17 +186,17 @@ body: JSON.stringify(data)
         data: data
 });
 // console.log(data)
-if(data === 1) {
+if(data == 1) {
     let path = 'thanksad';
     this.props.history.push(path);
 }
-else if(data === 2) {
+else if(data == 2) {
     alert('Du måste fylla i alla fälten.');
 }
-else if(data === 3) {
+else if(data == 3) {
     alert('Bilden måsta vara mindre än 2 MB.');
 }
-else if(data === 4) {
+else if(data == 4) {
     alert('Något är fel.');
 }
 else{
@@ -243,8 +243,8 @@ alert('Du måste godkänna att vi sparar dina uppgifter för att kunna lägga in
 
 acceptDataApproved(event) {
 const target = event.target;
-//const value = target.type === 'checkbox' ? target.checked : target.value;
-//let checkBoxStatus = false;
+const value = target.type === 'checkbox' ? target.checked : target.value;
+let checkBoxStatus = false;
 
 if(target.name === 'approved') {
 
@@ -258,8 +258,8 @@ console.log(this.state.checkBoxStatus);
 
 onAcceptPicture(event) {
 const target = event.target;
-//const value = target.type === 'checkbox' ? target.checked : target.value;
-//let checkBoxStatus = false;
+const value = target.type === 'checkbox' ? target.checked : target.value;
+let checkBoxStatus = false;
 
 if(target.name === 'acceptPicture') {
 
@@ -302,7 +302,7 @@ onSubmit = () => {
 
 
 render() {
-    const { rotation } =  this.state;
+  const { rotation } =  this.state; 
 return (
 
 <div className="Sell">
@@ -374,9 +374,9 @@ return (
 <input className="fileInput" id="picture" type="file" ref="picture" name="picture" defaultValue={this.state.file} multiple accept=".jpg, .jpeg, .png" onChange={this.fileSelected} required/>
 </form>
 
-<img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={this.state.file}/>
-<button onClick={this.rotateImageVänster}>snurra vänster</button>
-<button onClick={this.rotateImageHöger}>snurra höger</button>
+ <img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={this.state.file}/>
+<span className="button_spin" onClick={this.rotateImageVänster}>snurra vänster</span>
+<span className="button_spin" onClick={this.rotateImageHöger}>snurra höger</span> 
 </div>
 
 <div className="Sell-innerBox">

@@ -59,9 +59,7 @@ class MyInformation extends Component {
         console.log('klick');
     }
   
-    handleChange(event) {
-      
-    }
+ 
      onSubmit = () => {
          
      }
