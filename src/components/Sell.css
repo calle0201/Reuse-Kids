@@ -5,7 +5,23 @@
         width: 300px;
     
     }
+    .rotate {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .button_spin {
+       
+        background: lightgray;
+        border: black solid 2px;
+        margin-left:5px ;
+        width: 35%;
+        padding: 4px ;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    color: black
     
+    }
     .form_text {
         width: 300px;
         height: 150px;
@@ -106,8 +122,8 @@
     }
 
     .Sell-seePicture {
-        width: 100px;
-        margin: 10px 5px 5px 0;
+        width: 80px;
+        margin: 22px 0 ;
     }
 
     .Sell-accept {
@@ -179,16 +195,21 @@
             margin: 10px;
             text-align: center;
         }    
-
+.rotate {
+    text-align: center;
+    margin-bottom: 20px;
+}
         .button_spin {
             background: lightgray;
             border: black solid 2px;
-            margin-left:10px ;
+            margin-left:15px ;
+            
             padding: 6px ;
             border-radius: 10px;
             font-size: 14px;
             cursor: pointer;
         color: black
+        
         }
 
 
@@ -260,7 +281,7 @@
 
         .Sell-seePicture {
             width: 100px;
-          padding: 10px 0;
+          padding: 22px 0;
         }
         
         .Sell-sport {

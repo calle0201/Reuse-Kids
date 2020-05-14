@@ -131,8 +131,13 @@
         margin: 50px 0 70px 0;
         font-weight: normal;
     }
-
-    
+   #show-1 {
+        display: none;
+    }
+    .Advertisment-homepage:hover  #show-1 {
+        display: block;
+    }
+  
     .AdvertismentBox_imageBox {
         display: flex;
         justify-content: center;

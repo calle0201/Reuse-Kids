@@ -38,8 +38,8 @@ rotateImageHöger() {
 render() {
     const { rotation } =  this.state; 
     return (
-        <div>
-            <img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={bild}/>
+        <div className="rotate">
+            <img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={bild}/> <br></br>
             <span className="button_spin" onClick={this.rotateImageVänster}>snurra vänster</span>
             <span className="button_spin" onClick={this.rotateImageHöger}>snurra höger</span> 
         </div>

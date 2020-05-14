@@ -374,7 +374,7 @@ return (
 <input className="fileInput" id="picture" type="file" ref="picture" name="picture" defaultValue={this.state.file} multiple accept=".jpg, .jpeg, .png" onChange={this.fileSelected} required/>
 </form>
 
- <img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={this.state.file}/>
+ <img style={{transform: `rotate(${rotation}deg)`}} alt="din bild" className="Sell-seePicture" src={this.state.file}/> <br></br>
 <span className="button_spin" onClick={this.rotateImageVänster}>snurra vänster</span>
 <span className="button_spin" onClick={this.rotateImageHöger}>snurra höger</span> 
 </div>
