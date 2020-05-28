@@ -131,10 +131,11 @@
         margin: 50px 0 70px 0;
         font-weight: normal;
     }
-   #show-1 {
+   .show {
         display: none;
     }
-    .Advertisment-homepage:hover  #show-1 {
+    .AdvertismentBox_imageBox:hover +  .show {
+        margin-top: 100px;
         display: block;
     }
   

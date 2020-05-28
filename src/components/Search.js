@@ -188,7 +188,7 @@ class Search extends Component {
                      <div className="AdvertismentBox_imageBox">
                          <img className="AdvertismentBox_image" src={item.picture} alt={item.title}/>
                      </div>
-                     <div id={`show-${item.id}`}>{item.text}</div>
+                     <div className="show">{item.text}</div>
                      <div className="AdvertismentBox_price">{item.price} kr</div>
                      <div className="AdvertismentBox_date">{item.date}</div>
                      <div className="AdvertismentBox_county">{item.municipality}</div>

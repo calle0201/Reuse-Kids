@@ -186,17 +186,17 @@ body: JSON.stringify(data)
         data: data
 });
 // console.log(data)
-if(data == 1) {
+if(data === 1) {
     let path = 'thanksad';
     this.props.history.push(path);
 }
-else if(data == 2) {
+else if(data === 2) {
     alert('Du måste fylla i alla fälten.');
 }
-else if(data == 3) {
+else if(data === 3) {
     alert('Bilden måsta vara mindre än 2 MB.');
 }
-else if(data == 4) {
+else if(data === 4) {
     alert('Något är fel.');
 }
 else{
