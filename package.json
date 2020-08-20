@@ -10,7 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "ajv": "^6.5.3",
     "aws-sdk": "^2.503.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.4.1",
     "create-history": "^1.0.4",
     "font-awesome": "^4.7.0",
